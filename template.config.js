@@ -82,7 +82,7 @@ export default {
 			// styles -> codesplit,
 			enable: false,
 		},
-		react: false,
+		react: true,
 		vue: false
 	},
 	php: {
