@@ -1,9 +1,10 @@
 import React from "react";
-import PrivacyPolicy from './pages/privacyPolicy.jsx';
+import Categories from "./components/categories";
 export default function App() {
    return (
       <>
-         <PrivacyPolicy />
+
+         <Categories />
       </>
    );
 }
