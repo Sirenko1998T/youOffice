@@ -1,0 +1,47 @@
+[
+   {
+      "product_name": "HnO Display Card Stand (90 x 55mm) Landscape",
+      "price": {
+         "current_price": "$1.30",
+         "savings": "10%",
+         "price_before_gst": "$1.19",
+         "retail_price": "$1.45"
+      },
+      "bulk_pricing": {
+         "quantity": "200 & above",
+         "bulk_price": "$1.16",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      }
+   },
+   {
+      "product_name": "HnO Display Card Stand (90 x 55mm) Landscape",
+      "price": {
+         "current_price": "$1.30",
+         "savings": "10%",
+         "price_before_gst": "$1.19",
+         "retail_price": "$1.45"
+      },
+      "bulk_pricing": {
+         "quantity": "200 & above",
+         "bulk_price": "$1.16",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      }
+   },
+   {
+      "product_name": "HnO Display Card Stand (90 x 55mm) Landscape",
+      "price": {
+         "current_price": "$1.30",
+         "savings": "10%",
+         "price_before_gst": "$1.19",
+         "retail_price": "$1.45"
+      },
+      "bulk_pricing": {
+         "quantity": "200 & above",
+         "bulk_price": "$1.16",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      }
+   }
+]

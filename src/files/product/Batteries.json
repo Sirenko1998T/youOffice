@@ -1,0 +1,87 @@
+[
+   {
+      "product_name": "GP Ultra Alkaline Battery (AA, AAA) 4'S",
+      "price": {
+         "current_price": "$2.72",
+         "savings": "3%",
+         "price_before_gst": "$2.50",
+         "retail_price": "$2.80"
+      },
+      "bulk_pricing": {
+         "quantity": "20 & above",
+         "bulk_price": "$2.63",
+         "savings": "6%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "4 Batteries per card",
+         "High Performance",
+         "Superb Operating Time",
+         "Designed for the most popular portable electronic devices."
+      ],
+      "available_options": [
+         {
+            "type": "AA",
+            "label": "QTY"
+         },
+         {
+            "type": "AAA",
+            "label": "QTY"
+         }
+      ]
+   },
+   {
+      "product_name": "GP Ultra Alkaline Battery (AA, AAA) 6'S",
+      "price": {
+         "current_price": "$4.07",
+         "savings": "3%",
+         "price_before_gst": "$3.73",
+         "retail_price": "$4.20"
+      },
+      "bulk_pricing": {
+         "quantity": "12 & above",
+         "bulk_price": "$3.95",
+         "savings": "6%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "6 Batteries / Pack",
+         "High Performance",
+         "Superb Operating Time"
+      ],
+      "available_options": [
+         {
+            "type": "AA",
+            "label": "QTY"
+         }
+      ]
+   },
+   {
+      "product_name": "Energizer Alkaline Battery (AA, AAA) 4'S",
+      "price": {
+         "current_price": "$3.60",
+         "savings": "10%",
+         "price_before_gst": "$3.30",
+         "retail_price": "$4.00"
+      },
+      "bulk_pricing": {
+         "quantity": "20 & above",
+         "bulk_price": "$3.20",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "4 Batteries / Pack"
+      ],
+      "available_options": [
+         {
+            "type": "AA",
+            "label": "QTY"
+         },
+         {
+            "type": "AAA",
+            "label": "QTY"
+         }
+      ]
+   }
+]

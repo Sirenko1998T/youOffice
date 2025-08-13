@@ -1,0 +1,92 @@
+[
+   {
+      "product_name": "Gem Paper Clip 100'S 50mm",
+      "price": {
+         "current_price": "$0.72",
+         "savings": "10%",
+         "price_before_gst": "$0.66",
+         "retail_price": "$0.80"
+      },
+      "bulk_pricing": {
+         "quantity": "10 & above",
+         "bulk_price": "$0.64",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "100 Clips / Box"
+      ]
+   },
+   {
+      "product_name": "HnO Binder Clip (15mm, 5/8\") 12'S",
+      "price": {
+         "current_price": "$0.45",
+         "savings": "10%",
+         "price_before_gst": "$0.41",
+         "retail_price": "$0.50"
+      },
+      "bulk_pricing": {
+         "quantity": "12 & above",
+         "bulk_price": "$0.40",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "12 Clips / Box"
+      ]
+   },
+   {
+      "product_name": "HnO Binder Clip (19mm, 3/4\") 12'S",
+      "price": {
+         "current_price": "$0.54",
+         "savings": "10%",
+         "price_before_gst": "$0.50",
+         "retail_price": "$0.60"
+      },
+      "bulk_pricing": {
+         "quantity": "12 & above",
+         "bulk_price": "$0.48",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "12 Clips / Box"
+      ]
+   },
+   {
+      "product_name": "HnO Binder Clip (25mm, 1\") 12'S",
+      "price": {
+         "current_price": "$0.77",
+         "savings": "9%",
+         "price_before_gst": "$0.71",
+         "retail_price": "$0.85"
+      },
+      "bulk_pricing": {
+         "quantity": "12 & above",
+         "bulk_price": "$0.68",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "12 Clips / Box"
+      ]
+   },
+   {
+      "product_name": "HnO Binder Clip (32mm, 1-1/4\") 12'S",
+      "price": {
+         "current_price": "$1.03",
+         "savings": "10%",
+         "price_before_gst": "$0.94",
+         "retail_price": "$1.15"
+      },
+      "bulk_pricing": {
+         "quantity": "12 & above",
+         "bulk_price": "$0.92",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "12 Clips / Box"
+      ]
+   }
+]

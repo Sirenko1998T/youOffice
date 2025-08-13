@@ -1,0 +1,95 @@
+[
+   {
+      "product_name": "Combo Board w/Marker Tray (60 x 90cm) Aluminium Frame",
+      "price": {
+         "current_price": "$34.15",
+         "savings": "10%",
+         "price_before_gst": "$31.33",
+         "retail_price": "$37.89"
+      },
+      "bulk_pricing": {
+         "quantity": "5 & above",
+         "bulk_price": "$30.38",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      }
+   },
+   {
+      "product_name": "Combo Board w/Marker Tray (90 x 120cm) Aluminium Frame",
+      "price": {
+         "current_price": "$52.30",
+         "savings": "10%",
+         "price_before_gst": "$47.98",
+         "retail_price": "$58.00"
+      },
+      "bulk_pricing": {
+         "quantity": "3 & above",
+         "bulk_price": "$46.40",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      }
+   },
+   {
+      "product_name": "Cork Noticeboard (120 x 150cm) Aluminium Frame",
+      "price": {
+         "current_price": "$202.23",
+         "savings": "10%",
+         "price_before_gst": "$185.53",
+         "retail_price": "$224.70"
+      },
+      "bulk_pricing": {
+         "quantity": "3 & above",
+         "bulk_price": "$179.76",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "Approx. product weight: 8kg"
+      ]
+   },
+   {
+      "product_name": "Cork Noticeboard (120 x 150cm) Aluminium Frame - With Installation",
+      "price": {
+         "current_price": "$250.38",
+         "savings": "10%",
+         "price_before_gst": "$229.71",
+         "retail_price": "$278.20"
+      },
+      "bulk_pricing": {
+         "quantity": "3 & above",
+         "bulk_price": "$222.56",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      }
+   },
+   {
+      "product_name": "Cork Noticeboard (120 x 150cm) Wooden Frame",
+      "price": {
+         "current_price": "$321.00",
+         "savings": "10%",
+         "price_before_gst": "$294.50",
+         "retail_price": "$356.73"
+      },
+      "bulk_pricing": {
+         "quantity": "3 & above",
+         "bulk_price": "$285.36",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      }
+   },
+   {
+      "product_name": "Cork Noticeboard (120 x 150cm) Wooden Frame - With Installation",
+      "price": {
+         "current_price": "$369.15",
+         "savings": "10%",
+         "price_before_gst": "$338.67",
+         "retail_price": "$410.23"
+      },
+      "bulk_pricing": {
+         "quantity": "3 & above",
+         "bulk_price": "$328.16",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      }
+   }
+]

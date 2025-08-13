@@ -1,0 +1,41 @@
+[
+   {
+      "product_name": "Magnetic Tempered Glass Board w/Spacers (60 x 90cm) - With Installation",
+      "price": {
+         "current_price": "$272.85",
+         "savings": "10%",
+         "price_before_gst": "$250.32",
+         "retail_price": "$303.23"
+      },
+      "bulk_pricing": {
+         "quantity": "3 & above",
+         "bulk_price": "$242.56",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "Weight: 6.69kg",
+         "Classic Stainless Steel Spacers"
+      ]
+   },
+   {
+      "product_name": "Magnetic Tempered Glass Board w/Spacers (60 x 90cm) Premium-White - With Installation",
+      "price": {
+         "current_price": "$288.90",
+         "savings": "10%",
+         "price_before_gst": "$265.05",
+         "retail_price": "$321.00"
+      },
+      "bulk_pricing": {
+         "quantity": "3 & above",
+         "bulk_price": "$256.80",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "Weight: 6.69kg",
+         "Classic Stainless Steel Spacers",
+         "Highly Polished Super-White Glass Surface"
+      ]
+   }
+]
