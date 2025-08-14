@@ -7,7 +7,7 @@ export default function UserPanel() {
             <Link to="/register" className="text-white text-sm no-underline hover:underline transition">
                Register
             </Link>
-            <Link to="/" className="text-white text-sm no-underline hover:underline transition">
+            <Link to="/login" className="text-white text-sm no-underline hover:underline transition">
                Login
             </Link>
             <Link to="/" className="text-white text-sm no-underline hover:underline transition">

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Input from "../components/input";
 import Select from "../components/select";
+import { Link } from "react-router-dom";
+
 export default function Register() {
    const [value, setValue] = useState({
       firstName: "",
@@ -10,17 +12,20 @@ export default function Register() {
       unitNo: "",
       city: "",
       password: "",
+      country: "",
       passwordConfirm: ""
    });
    let [error, setError] = useState({});
    let validate = () => {
       let errors = {};
       if (!value.firstName) errors.firstName = "First Name is required";
+      if (!value.country) errors.country = "Country is required";
       if (!value.lastName) errors.lastName = "Last Name is required";
       if (!value.postalCode) errors.postalCode = "Postal Code is required";
       if (!value.address1) errors.address1 = "Address 1 is required";
       if (!value.city) errors.city = "City is required";
       if (!value.password) errors.password = "Password is required";
+
       if (value.password !== value.passwordConfirm) {
          errors.passwordConfirm = "Passwords do not match";
       }
@@ -60,9 +65,9 @@ export default function Register() {
                <h1 className="text-3xl font-bold text-gray-900 mb-2">New Customer</h1>
                <p className="text-gray-700 text-lg">
                   If you already have an account with us, please login at the{" "}
-                  <a href="/login" className="text-blue-600 hover:text-blue-800 font-medium transition-colors duration-200">
+                  <Link to="/login" className="text-blue-600 hover:text-blue-800 font-medium transition-colors duration-200">
                      login page
-                  </a>.
+                  </Link>.
                </p>
             </div>
 
@@ -117,9 +122,15 @@ export default function Register() {
                   error={error.city}
                   value={value.city}
                />
-               <Select label={
-                  "* Country"
-               } values={['Singaapore']} />
+               <Select
+                  label="* Country"
+                  name="country"
+                  values={["Singapore", "Malaysia", "Thailand"]}
+                  value={value.country}
+                  onChange={updateValue}
+                  error={error.country}
+               />
+
                <Input
                   label="* Password"
                   name="password"

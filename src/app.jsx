@@ -6,7 +6,7 @@ import Search from "./components/search.jsx";
 import Cart from "./components/cart.jsx";
 import Saved from "./components/saved.jsx";
 import Register from "./pages/register.jsx";
-
+import Login from "./pages/login.jsx";
 export default function App() {
    return (< >
 
@@ -24,6 +24,7 @@ export default function App() {
       <Routes>
 
          <Route path="/register" element={<Register />} />
+         <Route path="/login" element={<Login />} />
       </Routes>
    </>);
 }
