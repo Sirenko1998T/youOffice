@@ -8,6 +8,7 @@ import Saved from "./components/saved.jsx";
 import Register from "./pages/register.jsx";
 import Login from "./pages/login.jsx";
 import Reset from "./pages/reset.jsx";
+import ContactUs from "./pages/contactUs.jsx";
 export default function App() {
    return (< >
 
@@ -27,6 +28,7 @@ export default function App() {
          <Route path="/register" element={<Register />} />
          <Route path="/login" element={<Login />} />
          <Route path="/reset" element={<Reset />} />
+         <Route path="/contactUs" element={<ContactUs />} />
 
       </Routes>
    </>);
