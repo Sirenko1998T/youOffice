@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from 'react-router-dom';
 import Layout from "./pages/layout.jsx";
-
+import FAQ from "./pages/faq.jsx";
 import Register from "./pages/register.jsx";
 import Login from "./pages/login.jsx";
 import Reset from "./pages/reset.jsx";
@@ -21,6 +21,7 @@ export default function App() {
             <Route path="login" element={<Login />} />
             <Route path="reset" element={<Reset />} />
             <Route path="contactUs" element={<ContactUs />} />
+            <Route path="faq" element={<FAQ />} />
 
          </Route>
       </Routes>
