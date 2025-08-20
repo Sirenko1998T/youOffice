@@ -1,6 +1,8 @@
 [
    {
       "product_name": "Combo Board w/Marker Tray (60 x 90cm) Aluminium Frame",
+      "img": "",
+      "category": "MemoBulletinNoticeBoards",
       "price": {
          "current_price": "$34.15",
          "savings": "10%",
@@ -16,6 +18,8 @@
    },
    {
       "product_name": "Combo Board w/Marker Tray (90 x 120cm) Aluminium Frame",
+      "img": "",
+      "category": "MemoBulletinNoticeBoards",
       "price": {
          "current_price": "$52.30",
          "savings": "10%",
@@ -31,6 +35,8 @@
    },
    {
       "product_name": "Cork Noticeboard (120 x 150cm) Aluminium Frame",
+      "img": "",
+      "category": "MemoBulletinNoticeBoards",
       "price": {
          "current_price": "$202.23",
          "savings": "10%",
@@ -49,6 +55,8 @@
    },
    {
       "product_name": "Cork Noticeboard (120 x 150cm) Aluminium Frame - With Installation",
+      "img": "",
+      "category": "MemoBulletinNoticeBoards",
       "price": {
          "current_price": "$250.38",
          "savings": "10%",
@@ -64,6 +72,8 @@
    },
    {
       "product_name": "Cork Noticeboard (120 x 150cm) Wooden Frame",
+      "img": "",
+      "category": "MemoBulletinNoticeBoards",
       "price": {
          "current_price": "$321.00",
          "savings": "10%",
@@ -79,6 +89,8 @@
    },
    {
       "product_name": "Cork Noticeboard (120 x 150cm) Wooden Frame - With Installation",
+      "img": "",
+      "category": "MemoBulletinNoticeBoards",
       "price": {
          "current_price": "$369.15",
          "savings": "10%",

@@ -1,0 +1,78 @@
+[
+   {
+      "product_name": "HnO Ballpoint Pen 0.5mm (12 Pens) Retractable",
+      "img": "",
+      "category": "BallpointPens",
+      "price": {
+         "current_price": "$3.00",
+         "savings": "38%",
+         "price_before_gst": "$2.75",
+         "retail_price": "$4.80"
+      },
+      "bulk_pricing": [
+         {
+            "quantity": "12 & above",
+            "bulk_price": "$2.70",
+            "savings": "44%",
+            "note": "same colour, same size etc."
+         },
+         {
+            "quantity": "144 & above",
+            "bulk_price": "$2.40",
+            "savings": "50%",
+            "note": "same colour, same size etc."
+         }
+      ],
+      "features": [
+         "12 Pens / Box"
+      ],
+      "available_options": [
+         {
+            "type": "Black",
+            "label": "QTY"
+         },
+         {
+            "type": "Blue",
+            "label": "QTY"
+         },
+         {
+            "type": "Red",
+            "label": "QTY"
+         },
+         {
+            "type": "Green"
+         }
+      ]
+   },
+   {
+      "product_name": "HnO Ballpoint Pen 0.5mm Retractable",
+      "img": "",
+      "category": "BallpointPens",
+      "price": {
+         "current_price": "$0.36",
+         "savings": "10%",
+         "price_before_gst": "$0.33",
+         "retail_price": "$0.40"
+      },
+      "bulk_pricing": {},
+      "features": [],
+      "available_options": [
+         {
+            "type": "Black",
+            "label": "QTY"
+         },
+         {
+            "type": "Blue",
+            "label": "QTY"
+         },
+         {
+            "type": "Red",
+            "label": "QTY"
+         },
+         {
+            "type": "Green",
+            "label": "QTY"
+         }
+      ]
+   }
+]

@@ -1,0 +1,32 @@
+[
+   {
+      "product_name": "Mesh Waste Bin (25 x 25 x 35cm)",
+      "img": "",
+      "category": "WasteBin",
+      "price": {
+         "current_price": "$8.10",
+         "savings": "10%",
+         "price_before_gst": "$7.43",
+         "retail_price": "$9.00"
+      },
+      "bulk_pricing": {
+         "quantity": "12 & above",
+         "bulk_price": "$7.30",
+         "savings": "19%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "Durable Steel Base"
+      ],
+      "available_options": [
+         {
+            "type": "Black",
+            "label": "QTY"
+         },
+         {
+            "type": "Silver",
+            "label": "QTY"
+         }
+      ]
+   }
+]

@@ -1,0 +1,140 @@
+[
+   {
+      "product_name": "Pentel EnerGel Metal Body Retractable Roller Pen (Blue Ink) 0.7mm w/Gift Box",
+      "img": "",
+      "category": "GiftPens",
+      "price": {
+         "current_price": "$12.40",
+         "savings": "5%",
+         "price_before_gst": "$11.38",
+         "retail_price": "$13.00"
+      },
+      "bulk_pricing": {
+         "quantity": "20 & above",
+         "bulk_price": "$11.75",
+         "savings": "10%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "Quick-Drying",
+         "Super-Smooth",
+         "Liquid Gel Ink"
+      ],
+      "available_options": [
+         {
+            "type": "Black",
+            "label": "QTY"
+         },
+         {
+            "type": "Red",
+            "label": "QTY"
+         },
+         {
+            "type": "Aqua",
+            "label": "QTY"
+         },
+         {
+            "type": "Pink",
+            "label": "QTY"
+         },
+         {
+            "type": "Silver",
+            "label": "QTY"
+         },
+         {
+            "type": "Violet",
+            "label": "QTY"
+         },
+         {
+            "type": "Sky-Blue"
+         }
+      ]
+   },
+   {
+      "product_name": "Uni SXN-310 Premier Jetstream Pen 1.0mm Retractable",
+      "img": "",
+      "category": "GiftPens",
+      "price": {
+         "current_price": "$10.36",
+         "savings": "5%",
+         "price_before_gst": "$9.50",
+         "retail_price": "$10.90"
+      },
+      "bulk_pricing": {
+         "quantity": "12 & above",
+         "bulk_price": "$9.81",
+         "savings": "10%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "Lightfast",
+         "Waterproof",
+         "Quick-Drying",
+         "Premium Jetstream",
+         "Secure Against Tampering",
+         "Contoured & Subtly Ribbed Soft Grip"
+      ],
+      "available_options": [
+         {
+            "type": "Black",
+            "label": "QTY"
+         },
+         {
+            "type": "Silver"
+         }
+      ]
+   },
+   {
+      "product_name": "Zebra Slide Ballpoint Pen",
+      "img": "",
+      "category": "GiftPens",
+      "price": {
+         "current_price": "$9.63",
+         "savings": "5%",
+         "price_before_gst": "$8.83",
+         "retail_price": "$10.14"
+      },
+      "bulk_pricing": {
+         "quantity": "12 & above",
+         "bulk_price": "$9.12",
+         "savings": "10%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "Compact",
+         "Stylish Design",
+         "Convenient to Use"
+      ],
+      "available_options": [
+         {
+            "type": "Blue",
+            "label": "QTY"
+         },
+         {
+            "type": "Green",
+            "label": "QTY"
+         },
+         "Red",
+         {
+            "type": "Pink",
+            "label": "QTY"
+         },
+         {
+            "type": "White",
+            "label": "QTY"
+         },
+         {
+            "type": "Grey",
+            "label": "QTY"
+         },
+         {
+            "type": "Light-Blue",
+            "label": "QTY"
+         },
+         {
+            "type": "Violet",
+            "label": "QTY"
+         }
+      ]
+   }
+]

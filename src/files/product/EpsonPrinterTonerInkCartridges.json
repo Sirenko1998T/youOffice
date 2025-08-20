@@ -1,0 +1,47 @@
+[
+   {
+      "product_name": "Epson Ink Bottle (001) Black",
+      "img": "",
+      "category": "EpsonPrinterTonerInkCartridges",
+      "price": {
+         "current_price": "$16.00",
+         "savings": "",
+         "price_before_gst": "$14.68",
+         "retail_price": ""
+      },
+      "bulk_pricing": {},
+      "features": [
+         "L14150, L4150, L4160, L4260, L4266, L6160, L6170, L6190, L6260, L6270, L6290",
+         "Approx. Yield: 7,500 Pages"
+      ]
+   },
+   {
+      "product_name": "Epson Ink Bottle (001) Colour",
+      "img": "",
+      "category": "EpsonPrinterTonerInkCartridges",
+      "price": {
+         "current_price": "$10.50",
+         "savings": "",
+         "price_before_gst": "$9.63",
+         "retail_price": ""
+      },
+      "bulk_pricing": {},
+      "features": [
+         "L14150, L4150, L4160, L4260, L4266, L6160, L6170, L6190, L6260, L6270, L6290",
+         "Approx. Yield: 6,000 Pages Each"
+      ],
+      "available_options": [
+         {
+            "type": "Cyan",
+            "label": "QTY"
+         },
+         {
+            "type": "Magenta",
+            "label": "QTY"
+         },
+         {
+            "type": "Yellow"
+         }
+      ]
+   }
+]

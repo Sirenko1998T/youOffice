@@ -1,0 +1,39 @@
+[
+   {
+      "product_name": "Pentel Sign Pen Fibre-Tip",
+      "img": "",
+      "category": "PentelSignPenFibreTip",
+      "price": {
+         "current_price": "$1.23",
+         "savings": "5%",
+         "price_before_gst": "$1.13",
+         "retail_price": "$1.30"
+      },
+      "bulk_pricing": {
+         "quantity": "12 & above",
+         "bulk_price": "$1.17",
+         "savings": "10%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "The Original Fibre-Tip Pen",
+         "For Office, College & Home",
+         "Non-Permanent Water-Based Ink",
+         "Perfect for Graphics & Illustrations"
+      ],
+      "available_options": [
+         {
+            "type": "Black"
+         },
+         {
+            "type": "Blue"
+         },
+         {
+            "type": "Red"
+         },
+         {
+            "type": "Green"
+         }
+      ]
+   }
+]

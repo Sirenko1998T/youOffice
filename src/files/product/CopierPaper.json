@@ -1,0 +1,84 @@
+[
+   {
+      "product_name": "Deli Copier Paper 80gsm A4",
+      "img": "",
+      "category": "CopierPaper",
+      "price": {
+         "current_price": "$4.80",
+         "savings": "20%",
+         "price_before_gst": "$4.40",
+         "retail_price": "$6.00"
+      },
+      "bulk_pricing": [
+         {
+            "quantity": "50 & above",
+            "bulk_price": "$4.70",
+            "savings": "22%",
+            "note": "same colour, same size etc."
+         },
+         {
+            "quantity": "100 & above",
+            "bulk_price": "$4.60",
+            "savings": "23%",
+            "note": "same colour, same size etc."
+         },
+         {
+            "quantity": "280 & above",
+            "bulk_price": "$4.50",
+            "savings": "25%",
+            "note": "same colour, same size etc."
+         }
+      ],
+      "features": [
+         "500 Sheets / Ream",
+         "100% Pure Wood Pulp",
+         "Neutral & Good Humidity Resistance",
+         "High Brightness & Whiteness - Comfortable Visual",
+         "Eliminates Misfeeds, Internal Jams, No Curls & Creasing - Better Productivity"
+      ],
+      "available_options": [
+         {
+            "type": "80gsm"
+         }
+      ]
+   },
+   {
+      "product_name": "Fujifilm Everyday Copier Paper 70gsm A4",
+      "img": "",
+      "category": "CopierPaper",
+      "price": {
+         "current_price": "$4.40",
+         "savings": "12%",
+         "price_before_gst": "$4.04",
+         "retail_price": "$5.00"
+      },
+      "bulk_pricing": [
+         {
+            "quantity": "50 & above",
+            "bulk_price": "$4.30",
+            "savings": "14%",
+            "note": "same colour, same size etc."
+         },
+         {
+            "quantity": "100 & above",
+            "bulk_price": "$4.20",
+            "savings": "16%",
+            "note": "same colour, same size etc."
+         },
+         {
+            "quantity": "320 & above",
+            "bulk_price": "$4.10",
+            "savings": "18%",
+            "note": "same colour, same size etc."
+         }
+      ],
+      "features": [
+         "500 Sheets / Ream"
+      ],
+      "available_options": [
+         {
+            "type": "70gsm"
+         }
+      ]
+   }
+]

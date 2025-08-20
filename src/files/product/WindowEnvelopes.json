@@ -1,0 +1,37 @@
+[
+   {
+      "product_name": "White Window Envelope C4 (A4) Peel & Seal 250'S",
+      "img": "",
+      "category": "WindowEnvelopes",
+      "price": {
+         "current_price": "$39.95",
+         "savings": "10%",
+         "price_before_gst": "$36.65",
+         "retail_price": "$44.50"
+      },
+      "bulk_pricing": {
+         "quantity": "5 & above",
+         "bulk_price": "$35.80",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "250 Envelopes / Box"
+      ]
+   },
+   {
+      "product_name": "White Window Envelope DL (110 x 220mm) Peel & Seal 50'S",
+      "img": "",
+      "category": "WindowEnvelopes",
+      "price": {
+         "current_price": "$4.50",
+         "savings": "",
+         "price_before_gst": "$4.13",
+         "retail_price": ""
+      },
+      "bulk_pricing": {},
+      "features": [
+         "50 Envelopes / Pack"
+      ]
+   }
+]

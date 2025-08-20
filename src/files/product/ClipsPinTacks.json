@@ -1,6 +1,8 @@
 [
    {
       "product_name": "Gem Paper Clip 100'S 50mm",
+      "img": "",
+      "category": "ClipsPinTacks",
       "price": {
          "current_price": "$0.72",
          "savings": "10%",
@@ -19,6 +21,8 @@
    },
    {
       "product_name": "HnO Binder Clip (15mm, 5/8\") 12'S",
+      "img": "",
+      "category": "ClipsPinTacks",
       "price": {
          "current_price": "$0.45",
          "savings": "10%",
@@ -37,6 +41,8 @@
    },
    {
       "product_name": "HnO Binder Clip (19mm, 3/4\") 12'S",
+      "img": "",
+      "category": "ClipsPinTacks",
       "price": {
          "current_price": "$0.54",
          "savings": "10%",
@@ -55,6 +61,8 @@
    },
    {
       "product_name": "HnO Binder Clip (25mm, 1\") 12'S",
+      "img": "",
+      "category": "ClipsPinTacks",
       "price": {
          "current_price": "$0.77",
          "savings": "9%",
@@ -73,6 +81,8 @@
    },
    {
       "product_name": "HnO Binder Clip (32mm, 1-1/4\") 12'S",
+      "img": "",
+      "category": "ClipsPinTacks",
       "price": {
          "current_price": "$1.03",
          "savings": "10%",

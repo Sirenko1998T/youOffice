@@ -1,0 +1,46 @@
+[
+   {
+      "product_name": "Bondstarz Invisible Tape (19mm x 25m)",
+      "img": "",
+      "category": "MagicTape",
+      "price": {
+         "current_price": "$2.50",
+         "savings": "15%",
+         "price_before_gst": "$2.29",
+         "retail_price": "$2.95"
+      },
+      "bulk_pricing": {
+         "quantity": "24 & above",
+         "bulk_price": "$2.00",
+         "savings": "32%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "Great Value",
+         "Tears By Hand",
+         "Invisible When Applied"
+      ]
+   },
+   {
+      "product_name": "3M Scotch Elephant Desktop Tape Dispenser w/Magic Tape (1\" Core)",
+      "img": "",
+      "category": "MagicTape",
+      "price": {
+         "current_price": "$10.90",
+         "savings": "15%",
+         "price_before_gst": "$10.00",
+         "retail_price": "$12.80"
+      },
+      "bulk_pricing": {
+         "quantity": "6 & above",
+         "bulk_price": "$8.95",
+         "savings": "30%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "Non-Skid Base",
+         "High-Quality Cutting Blade",
+         "Weighted Base - Easy One-Handed Dispensing"
+      ]
+   }
+]

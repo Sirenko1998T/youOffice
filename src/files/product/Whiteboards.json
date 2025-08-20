@@ -1,6 +1,8 @@
 [
    {
       "product_name": "Magnetic Flip Chart Whiteboard (60 x 90cm) Tripod Stand - White Frame",
+      "img": "",
+      "category": "Whiteboards",
       "price": {
          "current_price": "$125.10",
          "savings": "10%",
@@ -23,6 +25,8 @@
    },
    {
       "product_name": "Magnetic Whiteboard w/Marker Tray (45 x 60cm) Aluminium Frame",
+      "img": "",
+      "category": "Whiteboards",
       "price": {
          "current_price": "$19.95",
          "savings": "10%",

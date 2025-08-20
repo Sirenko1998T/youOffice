@@ -1,0 +1,22 @@
+[
+   {
+      "product_name": "String Envelope (10\" x 14\" x 2\") 5’S Kraft",
+      "img": "",
+      "category": "StringEnvelopes",
+      "price": {
+         "current_price": "$4.82",
+         "savings": "",
+         "price_before_gst": "$4.42",
+         "retail_price": ""
+      },
+      "bulk_pricing": {
+         "quantity": "20 & above",
+         "bulk_price": "$4.10",
+         "savings": "15%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "5 Envelopes / Pack"
+      ]
+   }
+]

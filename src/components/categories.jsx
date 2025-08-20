@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import category from "../files/category.json";
+import { Link } from "react-router-dom";
 
 export default function Categories() {
    const [wrap, setWrap] = useState({});
@@ -45,9 +46,9 @@ export default function Categories() {
             );
          }
          return (
-            <div key={index} className="p-1 pl-4 hover:bg-gray-50 transition-colors text-sm">
+            <Link to={`/category/${item}`} key={index} className="p-1 pl-4 hover:bg-gray-50 transition-colors text-sm">
                {item}
-            </div>
+            </Link>
          );
       });
    }

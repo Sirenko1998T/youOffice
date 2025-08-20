@@ -1,0 +1,63 @@
+[
+   {
+      "product_name": "Carton Sealer for Packing Tape",
+      "img": "",
+      "category": "PackingProducts",
+      "price": {
+         "current_price": "$7.60",
+         "savings": "5%",
+         "price_before_gst": "$6.97",
+         "retail_price": "$8.00"
+      },
+      "bulk_pricing": {
+         "quantity": "6 & above",
+         "bulk_price": "$7.20",
+         "savings": "10%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "Fits Up to 48mm Tape Width",
+         "Durable Design",
+         "Easy to Operate"
+      ]
+   },
+   {
+      "product_name": "Handy Plastic Carton Sealer",
+      "img": "",
+      "category": "PackingProducts",
+      "price": {
+         "current_price": "$2.25",
+         "savings": "10%",
+         "price_before_gst": "$2.06",
+         "retail_price": "$2.50"
+      },
+      "bulk_pricing": {
+         "quantity": "24 & above",
+         "bulk_price": "$2.00",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "Suitable for 2\" (48mm) Tape",
+         "3\" Core",
+         "Handy",
+         "Plastic, Light Weight"
+      ]
+   },
+   {
+      "product_name": "SureMark 2 Red Lines Price Label Roll (10 Rolls)",
+      "img": "",
+      "category": "PackingProducts",
+      "price": {
+         "current_price": "$11.90",
+         "savings": "",
+         "price_before_gst": "$10.92",
+         "retail_price": ""
+      },
+      "bulk_pricing": {},
+      "features": [
+         "10 Rolls / Pack",
+         "MX-5500P, SQ-8800"
+      ]
+   }
+]

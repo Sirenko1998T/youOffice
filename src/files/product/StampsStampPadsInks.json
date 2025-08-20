@@ -1,0 +1,50 @@
+[
+   {
+      "product_name": "Shiny S-772 DIY Self-Inking Printing Kit (30 x 14mm)",
+      "img": "",
+      "category": "StampsStampPadsInks",
+      "price": {
+         "current_price": "$15.25",
+         "savings": "5%",
+         "price_before_gst": "$13.99",
+         "retail_price": "$16.05"
+      },
+      "bulk_pricing": {
+         "quantity": "12 & above",
+         "bulk_price": "$14.45",
+         "savings": "10%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "1 x Tweezers",
+         "1 x Handy Stamp",
+         "1 x Rubber Type Plate",
+         "1 x Stamp Pad (S-722-7)",
+         "Rubber Type: 3.5mm - 420 Characters"
+      ]
+   },
+   {
+      "product_name": "Shiny S-773 DIY Self-Inking Printing Kit (47 x 18mm)",
+      "img": "",
+      "category": "StampsStampPadsInks",
+      "price": {
+         "current_price": "$17.80",
+         "savings": "5%",
+         "price_before_gst": "$16.33",
+         "retail_price": "$18.74"
+      },
+      "bulk_pricing": {
+         "quantity": "12 & above",
+         "bulk_price": "$16.87",
+         "savings": "10%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "1 x Tweezers",
+         "1 x Handy Stamp",
+         "1 x Rubber Type Plate",
+         "1 x Stamp Pad (S-723-7)",
+         "Rubber Type: 3.5mm - 420 Characters"
+      ]
+   }
+]

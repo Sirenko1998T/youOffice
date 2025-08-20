@@ -1,0 +1,53 @@
+[
+   {
+      "product_name": "HnO B8 Stapler 25 Sheets",
+      "img": "",
+      "category": "DesktopStaplers",
+      "price": {
+         "current_price": "$5.77",
+         "savings": "10%",
+         "price_before_gst": "$5.29",
+         "retail_price": "$6.42"
+      },
+      "bulk_pricing": {
+         "quantity": "12 & above",
+         "bulk_price": "$5.13",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      }
+   },
+   {
+      "product_name": "HnO Effortless Stapler (24/6, 26/6) 20 Sheets",
+      "img": "",
+      "category": "DesktopStaplers",
+      "price": {
+         "current_price": "$4.70",
+         "savings": "10%",
+         "price_before_gst": "$4.31",
+         "retail_price": "$5.21"
+      },
+      "bulk_pricing": {
+         "quantity": "12 & above",
+         "bulk_price": "$4.17",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      }
+   },
+   {
+      "product_name": "HnO No.10 Stapler",
+      "img": "",
+      "category": "DesktopStaplers",
+      "price": {
+         "current_price": "$1.17",
+         "savings": "10%",
+         "price_before_gst": "$1.07",
+         "retail_price": "$1.30"
+      },
+      "bulk_pricing": {
+         "quantity": "12 & above",
+         "bulk_price": "$1.04",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      }
+   }
+]

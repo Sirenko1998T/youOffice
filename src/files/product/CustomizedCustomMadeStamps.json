@@ -1,0 +1,28 @@
+[
+   {
+      "product_name": "Shiny R-524 Custom-Made Self-Inking Stamp 24mm",
+      "img": "",
+      "category": "CustomizedCustomMadeStamps",
+      "price": {
+         "current_price": "$20.00",
+         "savings": "",
+         "price_before_gst": "$18.35",
+         "retail_price": ""
+      },
+      "bulk_pricing": {},
+      "available_options": [
+         {
+            "type": "Black Ink",
+            "label": "QTY"
+         },
+         {
+            "type": "Blue Ink",
+            "label": "QTY"
+         },
+         {
+            "type": "Red Ink",
+            "label": "QTY"
+         }
+      ]
+   }
+]

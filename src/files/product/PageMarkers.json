@@ -1,0 +1,42 @@
+[
+   {
+      "product_name": "3M Post-it Pagemarkers 500RP-YN (1\" x 3\")",
+      "img": "",
+      "category": "PageMarkers",
+      "price": {
+         "current_price": "$3.65",
+         "savings": "3%",
+         "price_before_gst": "$3.35",
+         "retail_price": "$3.77"
+      },
+      "bulk_pricing": {
+         "quantity": "10 & above",
+         "bulk_price": "$3.55",
+         "savings": "6%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "100 Sheets / Pad"
+      ]
+   },
+   {
+      "product_name": "3M Post-it Pagemarkers 560RP-R (14 x 75mm)",
+      "img": "",
+      "category": "PageMarkers",
+      "price": {
+         "current_price": "$4.32",
+         "savings": "3%",
+         "price_before_gst": "$3.96",
+         "retail_price": "$4.45"
+      },
+      "bulk_pricing": {
+         "quantity": "10 & above",
+         "bulk_price": "$4.18",
+         "savings": "6%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "100 Sheets / Pad"
+      ]
+   }
+]

@@ -7,6 +7,8 @@
          "price_before_gst": "$16.51",
          "retail_price": "$20.00"
       },
+      "img": "",
+      "category": "Magnets",
       "bulk_pricing": {
          "quantity": "12 & above",
          "bulk_price": "$16.00",
@@ -29,6 +31,8 @@
          "price_before_gst": "$14.04",
          "retail_price": "$17.00"
       },
+      "img": "",
+      "category": "Magnets",
       "bulk_pricing": {
          "quantity": "24 & above",
          "bulk_price": "$13.60",
@@ -48,6 +52,8 @@
          "price_before_gst": "$2.89",
          "retail_price": "$3.50"
       },
+      "img": "",
+      "category": "Magnets",
       "bulk_pricing": {
          "quantity": "6 & above",
          "bulk_price": "$2.80",

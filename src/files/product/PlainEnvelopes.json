@@ -1,0 +1,107 @@
+[
+   {
+      "product_name": "White Envelope C4 (A4) Peel & Seal 250’S",
+      "img": "",
+      "category": "PlainEnvelopes",
+      "price": {
+         "current_price": "$32.95",
+         "savings": "10%",
+         "price_before_gst": "$30.23",
+         "retail_price": "$36.60"
+      },
+      "bulk_pricing": {
+         "quantity": "6 & above",
+         "bulk_price": "$29.30",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "250 Envelopes / Box"
+      ]
+   },
+   {
+      "product_name": "White Envelope C4 (A4) Peel & Seal 50’S",
+      "img": "",
+      "category": "PlainEnvelopes",
+      "price": {
+         "current_price": "$16.60",
+         "savings": "",
+         "price_before_gst": "$15.23",
+         "retail_price": ""
+      },
+      "bulk_pricing": {},
+      "features": [
+         "50 Envelopes / Pack"
+      ]
+   },
+   {
+      "product_name": "White Envelope C5 (162 x 229mm) Peel & Seal 10’S",
+      "img": "",
+      "category": "PlainEnvelopes",
+      "price": {
+         "current_price": "$1.72",
+         "savings": "",
+         "price_before_gst": "$1.58",
+         "retail_price": ""
+      },
+      "bulk_pricing": {},
+      "features": [
+         "10 Envelopes / Pack"
+      ]
+   },
+   {
+      "product_name": "White Envelope C5 (A5) Peel & Seal 500'S",
+      "img": "",
+      "category": "PlainEnvelopes",
+      "price": {
+         "current_price": "$33.27",
+         "savings": "10%",
+         "price_before_gst": "$30.52",
+         "retail_price": "$36.91"
+      },
+      "bulk_pricing": {
+         "quantity": "5 & above",
+         "bulk_price": "$29.53",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "500 Envelopes / Box"
+      ]
+   },
+   {
+      "product_name": "White Envelope DL (110 x 220mm) Peel & Seal 50'S",
+      "img": "",
+      "category": "PlainEnvelopes",
+      "price": {
+         "current_price": "$4.50",
+         "savings": "",
+         "price_before_gst": "$4.13",
+         "retail_price": ""
+      },
+      "bulk_pricing": {},
+      "features": [
+         "50 Envelopes / Pack"
+      ]
+   },
+   {
+      "product_name": "White Envelope DL (110 x 220mm) Peel & Seal 500'S",
+      "img": "",
+      "category": "PlainEnvelopes",
+      "price": {
+         "current_price": "$20.00",
+         "savings": "10%",
+         "price_before_gst": "$18.35",
+         "retail_price": "$22.20"
+      },
+      "bulk_pricing": {
+         "quantity": "6 & above",
+         "bulk_price": "$17.75",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "500 Envelopes / Box"
+      ]
+   }
+]

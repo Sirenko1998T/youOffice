@@ -1,0 +1,64 @@
+[
+   {
+      "product_name": "Canon Ink Bottle (GI-71) Black",
+      "img": "",
+      "category": "CanonPrinterTonerInkCartridges",
+      "price": {
+         "current_price": "$16.00",
+         "savings": "",
+         "price_before_gst": "$14.68",
+         "retail_price": ""
+      },
+      "bulk_pricing": {},
+      "features": [
+         "G1020, G2020, G3020, G2060, G3060, G3770, G4770, G3730",
+         "Approx. Yield: 6,000 Pages"
+      ]
+   },
+   {
+      "product_name": "Canon Ink Bottle (GI-71) Colour",
+      "img": "",
+      "category": "CanonPrinterTonerInkCartridges",
+      "price": {
+         "current_price": "$15.00",
+         "savings": "",
+         "price_before_gst": "$13.76",
+         "retail_price": ""
+      },
+      "bulk_pricing": {},
+      "features": [
+         "G1020, G2020, G3020, G2060, G3060, G3770, G4770, G3730",
+         "Approx. Yield: 7,700 Pages"
+      ],
+      "available_options": [
+         {
+            "type": "Cyan",
+            "label": "QTY"
+         },
+         {
+            "type": "Magenta",
+            "label": "QTY"
+         },
+         {
+            "type": "Yellow",
+            "label": "QTY"
+         }
+      ]
+   },
+   {
+      "product_name": "Canon Ink Cartridge (CL-746) Colour - Limited Stocks!",
+      "img": "",
+      "category": "CanonPrinterTonerInkCartridges",
+      "price": {
+         "current_price": "$36.90",
+         "savings": "10%",
+         "price_before_gst": "$33.85",
+         "retail_price": "$41.00"
+      },
+      "bulk_pricing": {},
+      "features": [
+         "iP2870, iP2870S, iP2872, MG2470, MG2570, MG2570S, MG2577S, MG2970, MG3070S, TS307, TR4570S, MX497",
+         "Approx. Yield: 180 Pages"
+      ]
+   }
+]

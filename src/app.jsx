@@ -7,6 +7,8 @@ import Login from "./pages/login.jsx";
 import Reset from "./pages/reset.jsx";
 import ContactUs from "./pages/contactUs.jsx";
 import Home from "./pages/home.jsx";
+import ProductPage from "./pages/productPage.jsx";
+import CategoryPage from "./pages/categoryPage.jsx";
 
 export default function App() {
    return (
@@ -22,6 +24,8 @@ export default function App() {
             <Route path="reset" element={<Reset />} />
             <Route path="contactUs" element={<ContactUs />} />
             <Route path="faq" element={<FAQ />} />
+            <Route path="category/:categoryName" element={<CategoryPage />} />
+            <Route path="product/:productId" element={<ProductPage />} />
 
          </Route>
       </Routes>

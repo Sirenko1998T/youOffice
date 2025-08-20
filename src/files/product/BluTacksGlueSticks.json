@@ -1,0 +1,26 @@
+[
+   {
+      "product_name": "Bondstarz Glue Stick 15g",
+      "img": "",
+      "category": "BluTacksGlueSticks",
+      "price": {
+         "current_price": "$0.90",
+         "savings": "10%",
+         "price_before_gst": "$0.83",
+         "retail_price": "$1.00"
+      },
+      "bulk_pricing": {
+         "quantity": "96 & above",
+         "bulk_price": "$0.80",
+         "savings": "20%",
+         "note": "same colour, same size etc."
+      },
+      "features": [
+         "Washable",
+         "Non-Toxic",
+         "Dries Clear",
+         "Safe & Strong",
+         "Multi-Purpose"
+      ]
+   }
+]

@@ -1,0 +1,33 @@
+[
+   {
+      "product_name": "Shiny Date Stamp (3mm, 4mm, 5mm)",
+      "img": "",
+      "category": "DateStamps",
+      "price": {
+         "current_price": "$3.75",
+         "savings": "5%",
+         "price_before_gst": "$3.44",
+         "retail_price": "$3.95"
+      },
+      "bulk_pricing": {
+         "quantity": "12 & above",
+         "bulk_price": "$3.56",
+         "savings": "10%",
+         "note": "same colour, same size etc."
+      },
+      "available_options": [
+         {
+            "type": "3mm",
+            "label": "QTY"
+         },
+         {
+            "type": "4mm",
+            "label": "QTY"
+         },
+         {
+            "type": "5mm",
+            "label": "QTY"
+         }
+      ]
+   }
+]

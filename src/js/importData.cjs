@@ -1,41 +1,78 @@
+const fs = require('fs');
+const path = require('path');
 const admin = require('firebase-admin');
 
-const serviceAccount = require('../youoffice-814d4-firebase-adminsdk-fbsvc-e477985391.json');
-
-
-const productsData = require('../files/product/Batteries.json');
+// Путь к Service Account файлу
+const serviceAccountPath = path.resolve(__dirname, '../youoffice-814d4-firebase-adminsdk-fbsvc-e477985391.json');
+const serviceAccount = require(serviceAccountPath);
 
 
 admin.initializeApp({
    credential: admin.credential.cert(serviceAccount)
 });
-
 const db = admin.firestore();
 
+// Путь к папке с файлами товаров
+const productsDirectory = path.resolve(__dirname, '../files/product');
 
-const collectionName = 'Batteries';
+async function importAllData() {
+   console.log('Начинаем импорт всех данных в Firestore...');
 
-
-async function importData() {
-   console.log('Начинаем импорт данных...');
-
-   if (!Array.isArray(productsData)) {
-      console.error('Ошибка: Ожидается массив данных в файле.');
+   let files;
+   try {
+      // Читаем все файлы из директории
+      files = fs.readdirSync(productsDirectory);
+   } catch (error) {
+      console.error(`❌ Ошибка чтения директории ${productsDirectory}:`, error);
       return;
    }
 
-   for (const product of productsData) {
-      try {
+   for (const file of files) {
+      // Проверяем, что файл имеет расширение .json
+      if (path.extname(file) === '.json') {
+         const filePath = path.join(productsDirectory, file);
+         let productsData;
 
-         const docRef = db.collection(collectionName).doc();
-         await docRef.set(product);
-         console.log(`Документ с ID ${docRef.id} успешно добавлен в коллекцию ${collectionName}.`);
-      } catch (error) {
-         console.error(`Ошибка при добавлении документа:`, error);
+         try {
+            // Читаем содержимое файла и парсим JSON
+            const fileContent = fs.readFileSync(filePath, 'utf8');
+            productsData = JSON.parse(fileContent);
+         } catch (parseError) {
+            console.error(`❌ Ошибка чтения или парсинга файла ${file}:`, parseError);
+            continue;
+         }
+
+         // Убеждаемся, что данные — это массив
+         if (!Array.isArray(productsData)) {
+            console.error(`❌ Ожидался массив в файле ${file}. Пропускаем...`);
+            continue;
+         }
+
+         // Категория берётся из имени файла (без расширения)
+         const categoryName = path.basename(file, '.json');
+
+         console.log(`🚀 Импортируем ${productsData.length} товаров из "${file}" в коллекцию "products"...`);
+
+         const batch = db.batch();
+         for (const product of productsData) {
+            // Добавляем категорию прямо в документ
+            const docRef = db.collection('products').doc();
+            batch.set(docRef, {
+               ...product,
+               category: categoryName
+            });
+         }
+
+         try {
+            await batch.commit();
+            console.log(`✅ Импорт из файла "${file}" завершён.`);
+         } catch (commitError) {
+            console.error(`❌ Ошибка при импорте из файла "${file}":`, commitError);
+         }
       }
    }
 
-   console.log('Импорт завершён.');
+   console.log('✅ Все импорты завершены.');
 }
 
-importData();
+importAllData();

@@ -1,6 +1,8 @@
 [
    {
       "product_name": "Magnetic Tempered Glass Board w/Spacers (60 x 90cm) - With Installation",
+      "img": "",
+      "category": "PlainGlassBoards",
       "price": {
          "current_price": "$272.85",
          "savings": "10%",
@@ -20,6 +22,8 @@
    },
    {
       "product_name": "Magnetic Tempered Glass Board w/Spacers (60 x 90cm) Premium-White - With Installation",
+      "img": "",
+      "category": "PlainGlassBoards",
       "price": {
          "current_price": "$288.90",
          "savings": "10%",
