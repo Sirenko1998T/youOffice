@@ -32,16 +32,13 @@
       ],
       "available_options": [
          {
-            "type": "Cyan",
-            "label": "QTY"
+            "type": "Cyan"
          },
          {
-            "type": "Magenta",
-            "label": "QTY"
+            "type": "Magenta"
          },
          {
-            "type": "Yellow",
-            "label": "QTY"
+            "type": "Yellow"
          }
       ]
    },

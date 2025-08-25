@@ -20,12 +20,10 @@
       ],
       "available_options": [
          {
-            "type": "Gold",
-            "label": "QTY"
+            "type": "Gold"
          },
          {
-            "type": "Silver",
-            "label": "QTY"
+            "type": "Silver"
          }
       ]
    }

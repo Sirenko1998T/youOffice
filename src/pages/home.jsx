@@ -8,27 +8,25 @@ import banner4 from "../assets/img/slider/Printers-1024x374.jpg";
 import banner5 from "../assets/img/slider/SG_online-banner_Jun-1024x374.jpg";
 import Categories from "../components/categories";
 import InfoBlock from "../components/infoBlock";
-import ProductList from "../components/productList";
-
+import CategoryPage from '../pages/categoryPage.jsx';
 export default function Home() {
    const slideImg = [banner1, banner2, banner3, banner4, banner5];
 
    return (
       <div className="max-w-7xl mx-auto px-4 py-8">
          <div className="flex flex-col lg:flex-row gap-6">
-            {/* Категории - 20% */}
+
             <div className="w-full lg:w-[20%]">
                <Categories />
             </div>
 
-            {/* Основной контент - 80% */}
+
             <div className="w-full lg:w-[80%]">
-               {/* Слайдер */}
+
                <div className="w-full mb-6">
                   <Slider images={slideImg} />
                </div>
 
-               {/* InfoBlock под слайдером */}
                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   <Link to='/faq' className="group">
                      <InfoBlock
@@ -61,7 +59,7 @@ export default function Home() {
                         image='../assets/img/info/sales.png'
                      />
                   </Link>
-                  <ProductList />
+                  <CategoryPage />
                </div>
             </div>
          </div>

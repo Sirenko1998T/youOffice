@@ -12,16 +12,13 @@
       "bulk_pricing": {},
       "available_options": [
          {
-            "type": "Black Ink",
-            "label": "QTY"
+            "type": "Black Ink"
          },
          {
-            "type": "Blue Ink",
-            "label": "QTY"
+            "type": "Blue Ink"
          },
          {
-            "type": "Red Ink",
-            "label": "QTY"
+            "type": "Red Ink"
          }
       ]
    }

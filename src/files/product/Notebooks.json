@@ -18,12 +18,10 @@
       "features": [],
       "available_options": [
          {
-            "type": "Green",
-            "label": "QTY"
+            "type": "Green"
          },
          {
-            "type": "Dark-Blue",
-            "label": "QTY"
+            "type": "Dark-Blue"
          },
          {
             "type": "Light-Blue"
@@ -49,20 +47,16 @@
       "features": [],
       "available_options": [
          {
-            "type": "Black",
-            "label": "QTY"
+            "type": "Black"
          },
          {
-            "type": "Green",
-            "label": "QTY"
+            "type": "Green"
          },
          {
-            "type": "Dark-Blue",
-            "label": "QTY"
+            "type": "Dark-Blue"
          },
          {
-            "type": "Light-Blue",
-            "label": "QTY"
+            "type": "Light-Blue"
          }
       ]
    }

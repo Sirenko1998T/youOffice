@@ -22,28 +22,22 @@
       ],
       "available_options": [
          {
-            "type": "Black",
-            "label": "QTY"
+            "type": "Black"
          },
          {
-            "type": "Red",
-            "label": "QTY"
+            "type": "Red"
          },
          {
-            "type": "Aqua",
-            "label": "QTY"
+            "type": "Aqua"
          },
          {
-            "type": "Pink",
-            "label": "QTY"
+            "type": "Pink"
          },
          {
-            "type": "Silver",
-            "label": "QTY"
+            "type": "Silver"
          },
          {
-            "type": "Violet",
-            "label": "QTY"
+            "type": "Violet"
          },
          {
             "type": "Sky-Blue"
@@ -76,8 +70,7 @@
       ],
       "available_options": [
          {
-            "type": "Black",
-            "label": "QTY"
+            "type": "Black"
          },
          {
             "type": "Silver"
@@ -107,33 +100,26 @@
       ],
       "available_options": [
          {
-            "type": "Blue",
-            "label": "QTY"
+            "type": "Blue"
          },
          {
-            "type": "Green",
-            "label": "QTY"
+            "type": "Green"
          },
          "Red",
          {
-            "type": "Pink",
-            "label": "QTY"
+            "type": "Pink"
          },
          {
-            "type": "White",
-            "label": "QTY"
+            "type": "White"
          },
          {
-            "type": "Grey",
-            "label": "QTY"
+            "type": "Grey"
          },
          {
-            "type": "Light-Blue",
-            "label": "QTY"
+            "type": "Light-Blue"
          },
          {
-            "type": "Violet",
-            "label": "QTY"
+            "type": "Violet"
          }
       ]
    }

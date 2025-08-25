@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from 'react-router-dom';
+import { createContext, useContext, useState } from 'react';
 import Layout from "./pages/layout.jsx";
 import FAQ from "./pages/faq.jsx";
 import Register from "./pages/register.jsx";
@@ -9,8 +10,9 @@ import ContactUs from "./pages/contactUs.jsx";
 import Home from "./pages/home.jsx";
 import ProductPage from "./pages/productPage.jsx";
 import CategoryPage from "./pages/categoryPage.jsx";
-
+export let ThemeContext = React.createContext(null);
 export default function App() {
+
    return (
 
 

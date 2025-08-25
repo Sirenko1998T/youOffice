@@ -20,12 +20,10 @@
       ],
       "available_options": [
          {
-            "type": "Black",
-            "label": "QTY"
+            "type": "Black"
          },
          {
-            "type": "Silver",
-            "label": "QTY"
+            "type": "Silver"
          }
       ]
    }

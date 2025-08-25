@@ -21,12 +21,10 @@
       ],
       "available_options": [
          {
-            "type": "Red, Yellow, Green, Blue",
-            "label": "QTY"
+            "type": "Red, Yellow, Green, Blue"
          },
          {
-            "type": "Yellow, Purple, Pink, Blue",
-            "label": "QTY"
+            "type": "Yellow, Purple, Pink, Blue"
          }
       ]
    }

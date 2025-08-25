@@ -58,20 +58,16 @@
       "features": [],
       "available_options": [
          {
-            "type": "Black",
-            "label": "QTY"
+            "type": "Black"
          },
          {
-            "type": "Blue",
-            "label": "QTY"
+            "type": "Blue"
          },
          {
-            "type": "Red",
-            "label": "QTY"
+            "type": "Red"
          },
          {
-            "type": "Green",
-            "label": "QTY"
+            "type": "Green"
          }
       ]
    }

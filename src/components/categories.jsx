@@ -5,6 +5,10 @@ import { Link } from "react-router-dom";
 export default function Categories() {
    const [wrap, setWrap] = useState({});
 
+   function cleanKey(str) {
+      return str.replace(/[^a-zA-Z]/g, "");
+   }
+
    function toggleWrap(name) {
       setWrap(prev => ({
          ...prev,
@@ -15,14 +19,15 @@ export default function Categories() {
    function renderCategories(items) {
       return items.map((item, index) => {
          if (typeof item === "object") {
+            const key = cleanKey(item.category);
             return (
                <div key={index} className="mb-1">
                   <h3
-                     onClick={() => toggleWrap(item.category)}
-                     className="flex justify-between items-center p-2   hover:bg-gray-200 cursor-pointer transition-colors text-sm"
+                     onClick={() => toggleWrap(key)}
+                     className="flex justify-between items-center p-2 hover:bg-gray-200 cursor-pointer transition-colors text-sm"
                   >
                      <span>{item.category}</span>
-                     <span className={`inline-block transition-transform duration-200 ${wrap[item.category] ? 'rotate-180' : ''}`}>
+                     <span className={`inline-block transition-transform duration-200 ${wrap[key] ? 'rotate-180' : ''}`}>
                         <svg
                            width="12"
                            height="12"
@@ -37,7 +42,7 @@ export default function Categories() {
                         </svg>
                      </span>
                   </h3>
-                  {wrap[item.category] && (
+                  {wrap[key] && (
                      <div className="pl-3 mt-1">
                         {renderCategories(item.sub_categories)}
                      </div>
@@ -45,8 +50,10 @@ export default function Categories() {
                </div>
             );
          }
+
+         const link = cleanKey(item);
          return (
-            <Link to={`/category/${item}`} key={index} className="p-1 pl-4 hover:bg-gray-50 transition-colors text-sm">
+            <Link to={`/category/${link}`} key={index} className="p-1 pl-4 hover:bg-gray-50 transition-colors text-sm">
                {item}
             </Link>
          );

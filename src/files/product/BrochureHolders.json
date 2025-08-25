@@ -24,8 +24,7 @@
       ],
       "available_options": [
          {
-            "type": "Portrait / Vertical",
-            "label": "QTY"
+            "type": "Portrait / Vertical"
          },
          {
             "type": "Landscape / Horizontal"

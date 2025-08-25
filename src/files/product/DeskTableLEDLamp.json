@@ -17,12 +17,10 @@
       ],
       "available_options": [
          {
-            "type": "Silver",
-            "label": "QTY"
+            "type": "Silver"
          },
          {
-            "type": "Night-Blue",
-            "label": "QTY"
+            "type": "Night-Blue"
          }
       ]
    }

@@ -17,16 +17,13 @@
       },
       "available_options": [
          {
-            "type": "3mm",
-            "label": "QTY"
+            "type": "3mm"
          },
          {
-            "type": "4mm",
-            "label": "QTY"
+            "type": "4mm"
          },
          {
-            "type": "5mm",
-            "label": "QTY"
+            "type": "5mm"
          }
       ]
    }
