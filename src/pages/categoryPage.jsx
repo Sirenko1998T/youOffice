@@ -36,7 +36,7 @@ const CategoryPage = () => {
 
    return (
       <div>
-         <h1>Каталог: {categoryName}</h1>
+
 
          <div className="products-grid">
             {

@@ -45,6 +45,7 @@
    {
       "product_name": "Fujifilm Everyday Copier Paper 70gsm A4",
       "img": "",
+      "best_deals": true,
       "category": "CopierPaper",
       "price": {
          "current_price": "$4.40",

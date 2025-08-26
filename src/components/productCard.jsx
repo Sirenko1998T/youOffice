@@ -113,3 +113,4 @@ export default function ProductCard({ product, details = false }) {
       </div>
    );
 }
+

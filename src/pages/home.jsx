@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 import Slider from "../components/Slider";
 import banner1 from "../assets/img/slider/Banner_HSM_SECURIO_Large_Office_1024x374px-1024x374.jpg";
@@ -9,8 +9,38 @@ import banner5 from "../assets/img/slider/SG_online-banner_Jun-1024x374.jpg";
 import Categories from "../components/categories";
 import InfoBlock from "../components/infoBlock";
 import CategoryPage from '../pages/categoryPage.jsx';
+import CategoryBlock from '../components/categoryBlock.jsx'
+import { featuredProduct, newIn, bestDeals } from "../js/queries.js";
+import { getDocs } from 'firebase/firestore';
+
 export default function Home() {
    const slideImg = [banner1, banner2, banner3, banner4, banner5];
+   const [featured, setFeatured] = useState([]);
+   const [newInProducts, setNewInProducts] = useState([]);
+   const [bestDealsProducts, setBestDealsProducts] = useState([]);
+
+
+   useEffect(() => {
+      const fetchRecommended = async () => {
+         try {
+            const [featuredSnap, newInSnap, bestDealsSnap] = await Promise.all([
+               getDocs(featuredProduct),
+               getDocs(newIn),
+               getDocs(bestDeals)
+            ]);
+
+            setFeatured(featuredSnap.docs.map(doc => ({ id: doc.id, ...doc.data() })));
+            setNewInProducts(newInSnap.docs.map(doc => ({ id: doc.id, ...doc.data() })));
+            setBestDealsProducts(bestDealsSnap.docs.map(doc => ({ id: doc.id, ...doc.data() })));
+
+         } catch (error) {
+            console.error("Error fetching products:", error);
+
+         }
+      };
+
+      fetchRecommended();
+   }, []);
 
    return (
       <div className="max-w-7xl mx-auto px-4 py-8">
@@ -59,10 +89,13 @@ export default function Home() {
                         image='../assets/img/info/sales.png'
                      />
                   </Link>
-                  <CategoryPage />
+
                </div>
+               <CategoryBlock label='FEATURED PRODUCTS' products={featured} />
+               <CategoryBlock label=' NEW IN' products={newInProducts} />
+               <CategoryBlock label='BEST DEALS' products={bestDealsProducts} />
             </div>
          </div>
       </div>
    );
-}
+} 

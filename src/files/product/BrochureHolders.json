@@ -33,6 +33,7 @@
    },
    {
       "product_name": "Пример_товара_2",
+      "best_deals": true,
       "img": "",
       "category": "BrochureHolders",
       "price": {
