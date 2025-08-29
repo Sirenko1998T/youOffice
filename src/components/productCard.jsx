@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import Button from '../components/button.jsx';
 import CountProduct from './countProduct.jsx';
 import { Link } from 'react-router-dom';
+import { CartContext } from './context/cartContext.jsx';
 
 export default function ProductCard({ product, details = false }) {
-   let [showOptions, setShowOptions] = useState(true)
+   const { count, increase, reduce } = useContext(CartContext);
+   const [showOptions, setShowOptions] = useState(true);
+
    return (
       <div className="border border-gray-200 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 max-w-xs bg-white">
 
@@ -18,19 +21,15 @@ export default function ProductCard({ product, details = false }) {
             )}
          </Link>
 
-
          <Link to={`/product/${product?.id}`} className="block">
             <h3 className="text-lg font-semibold text-gray-900 mb-2 hover:text-blue-600 transition-colors duration-200">
                {product?.product_name || "Unnamed Product"}
             </h3>
          </Link>
 
-
          <div className="mb-3">
             <p className="text-2xl font-bold text-gray-900">
-               {product?.price?.current_price
-                  ? `${product.price.current_price}`
-                  : "Price not available"}
+               {product?.price?.current_price || "Price not available"}
             </p>
             {product?.price?.savings && (
                <p className="text-green-600 text-sm font-medium">
@@ -43,7 +42,6 @@ export default function ProductCard({ product, details = false }) {
                </p>
             )}
          </div>
-
 
          {product?.bulk_pricing && (
             <div className="mb-3 p-3 bg-gray-50 rounded-lg text-sm">
@@ -62,10 +60,8 @@ export default function ProductCard({ product, details = false }) {
             </div>
          )}
 
-
          {details && product?.features && (
             <div className="mt-3">
-
                <ul className="list-disc pl-5 space-y-1">
                   {product.features.map((feature, i) => (
                      <li key={i} className="text-sm text-gray-700">
@@ -77,32 +73,40 @@ export default function ProductCard({ product, details = false }) {
                <div className="mt-3">
                   {product?.available_options ? (
                      <>
-                        <div onClick={() => setShowOptions(!showOptions)} className="font-semibold">Available Options</div>
-                        {
-                           showOptions && <ol className="space-y-3 list-decimal pl-5 mt-2">
-                              {product.available_options.map((type, i) => (
+                        <div onClick={() => setShowOptions(!showOptions)} className="font-semibold">
+                           Available Options
+                        </div>
+                        {showOptions && (
+                           <ol className="space-y-3 list-decimal pl-5 mt-2">
+                              {product.available_options.map((option, i) => (
                                  <li key={i} className="ml-4 py-2">
                                     <div className="flex items-center justify-between gap-4">
-                                       <span className="text-sm font-medium text-gray-700">{type.type}</span>
-                                       <CountProduct name="QTY" />
+                                       <span className="text-sm font-medium text-gray-700">{option.type}</span>
+                                       <CountProduct
+                                          reduce={() => reduce(product.id, option.type)}
+                                          count={count[product.id]?.[option.type] || 0}
+                                          increase={() => increase(product.id, option.type)}
+                                          name="QTY"
+                                       />
                                     </div>
                                  </li>
                               ))}
-                           </ol>}
-
+                           </ol>
+                        )}
                      </>
                   ) : (
-                     <>
-
-                        <div className="mt-2">
-                           <CountProduct name="QTY" />
-                        </div>
-                     </>
+                     <div className="mt-2">
+                        <CountProduct
+                           reduce={() => reduce(product.id, "default")}
+                           count={count[product.id]?.["default"] || 0}
+                           increase={() => increase(product.id, "default")}
+                           name="QTY"
+                        />
+                     </div>
                   )}
                </div>
             </div>
          )}
-
 
          <Button
             label="Add to Cart"
@@ -113,4 +117,3 @@ export default function ProductCard({ product, details = false }) {
       </div>
    );
 }
-

@@ -22,8 +22,7 @@
       ],
       "available_options": [
          {
-            "type": "AA",
-            "label": "QTY"
+            "type": "AA"
          }
       ]
    },

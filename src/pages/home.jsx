@@ -8,10 +8,11 @@ import banner4 from "../assets/img/slider/Printers-1024x374.jpg";
 import banner5 from "../assets/img/slider/SG_online-banner_Jun-1024x374.jpg";
 import Categories from "../components/categories";
 import InfoBlock from "../components/infoBlock";
-import CategoryPage from '../pages/categoryPage.jsx';
+
 import CategoryBlock from '../components/categoryBlock.jsx'
 import { featuredProduct, newIn, bestDeals } from "../js/queries.js";
 import { getDocs } from 'firebase/firestore';
+
 
 export default function Home() {
    const slideImg = [banner1, banner2, banner3, banner4, banner5];
