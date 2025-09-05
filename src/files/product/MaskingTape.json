@@ -1,71 +1,74 @@
 [
-   {
-      "product_name": "HnO High Temperature Masking Tape (12mm x 20yds)",
-      "img": "",
-      "category": "MaskingTape",
-      "price": {
-         "current_price": "$0.54",
-         "savings": "10%",
-         "price_before_gst": "$0.50",
-         "retail_price": "$0.60"
-      },
-      "bulk_pricing": {
-         "quantity": "24 & above",
-         "bulk_price": "$0.48",
-         "savings": "20%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "Easy tear and no residue",
-         "Crepe paper as backing, coated with natural rubber adhesive",
-         "Widely used for indoor and outdoor decoration, automotive painting, bundling, and packing",
-         "Temperature Resistance: 120 ℃"
-      ]
-   },
-   {
-      "product_name": "HnO High Temperature Masking Tape (18mm x 20yds)",
-      "img": "",
-      "category": "MaskingTape",
-      "price": {
-         "current_price": "$0.81",
-         "savings": "10%",
-         "price_before_gst": "$0.74",
-         "retail_price": "$0.90"
-      },
-      "bulk_pricing": {
-         "quantity": "96 & above",
-         "bulk_price": "$0.72",
-         "savings": "20%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "Easy tear and no residue",
-         "Crepe paper as backing, coated with natural rubber adhesive",
-         "Widely used for indoor and outdoor decoration, automotive painting, bundling, and packing",
-         "Temperature Resistance: 120 ℃"
-      ]
-   },
-   {
-      "product_name": "HnO High Temperature Masking Tape (24mm x 20yds)",
-      "img": "",
-      "category": "MaskingTape",
-      "price": {
-         "current_price": "$1.08",
-         "savings": "10%",
-         "price_before_gst": "$0.99",
-         "retail_price": "$1.20"
-      },
-      "bulk_pricing": {
-         "quantity": "72 & above",
-         "bulk_price": "$0.96",
-         "savings": "20%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "Easy tear and no residue",
-         "Crepe paper as backing, coated with natural rubber adhesive",
-         "Widely used for indoor and outdoor decoration, automotive painting, bundling, and packing",
-         "Temperature Resistance: 120 ℃"
-      ]
-   }
+  {
+    "id": "custom_1757001701080_0_cll34tq6w",
+    "product_name": "HnO High Temperature Masking Tape (12mm x 20yds)",
+    "img": "",
+    "category": "MaskingTape",
+    "price": {
+      "current_price": 0.54,
+      "savings": 10,
+      "price_before_gst": 0.5,
+      "retail_price": 0.6
+    },
+    "bulk_pricing": {
+      "quantity": "24 & above",
+      "bulk_price": 0.48,
+      "savings": 20,
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "Easy tear and no residue",
+      "Crepe paper as backing, coated with natural rubber adhesive",
+      "Widely used for indoor and outdoor decoration, automotive painting, bundling, and packing",
+      "Temperature Resistance: 120 ℃"
+    ]
+  },
+  {
+    "id": "custom_1757001701080_1_27gsl7brt",
+    "product_name": "HnO High Temperature Masking Tape (18mm x 20yds)",
+    "img": "",
+    "category": "MaskingTape",
+    "price": {
+      "current_price": 0.81,
+      "savings": 10,
+      "price_before_gst": 0.74,
+      "retail_price": 0.9
+    },
+    "bulk_pricing": {
+      "quantity": "96 & above",
+      "bulk_price": 0.72,
+      "savings": 20,
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "Easy tear and no residue",
+      "Crepe paper as backing, coated with natural rubber adhesive",
+      "Widely used for indoor and outdoor decoration, automotive painting, bundling, and packing",
+      "Temperature Resistance: 120 ℃"
+    ]
+  },
+  {
+    "id": "custom_1757001701080_2_tr0uum0h1",
+    "product_name": "HnO High Temperature Masking Tape (24mm x 20yds)",
+    "img": "",
+    "category": "MaskingTape",
+    "price": {
+      "current_price": 1.08,
+      "savings": 10,
+      "price_before_gst": 0.99,
+      "retail_price": 1.2
+    },
+    "bulk_pricing": {
+      "quantity": "72 & above",
+      "bulk_price": 0.96,
+      "savings": 20,
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "Easy tear and no residue",
+      "Crepe paper as backing, coated with natural rubber adhesive",
+      "Widely used for indoor and outdoor decoration, automotive painting, bundling, and packing",
+      "Temperature Resistance: 120 ℃"
+    ]
+  }
 ]

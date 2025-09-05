@@ -1,62 +1,65 @@
 [
-   {
-      "product_name": "Computer Form Paper 1-Ply (9.5\" x 11\") 2000'S White",
-      "img": "",
-      "category": "ComputerFormPaper",
-      "price": {
-         "current_price": "$33.30",
-         "savings": "10%",
-         "price_before_gst": "$30.55",
-         "retail_price": "$37.00"
-      },
-      "bulk_pricing": {
-         "quantity": "5 & above",
-         "bulk_price": "$29.60",
-         "savings": "20%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "2000 Sheets / Box"
-      ]
-   },
-   {
-      "product_name": "Computer Form Paper 2-Ply NCR (15\" x 11\") 1000'S White/Yellow",
-      "img": "",
-      "category": "ComputerFormPaper",
-      "price": {
-         "current_price": "$76.90",
-         "savings": "10%",
-         "price_before_gst": "$70.55",
-         "retail_price": "$85.00"
-      },
-      "bulk_pricing": {
-         "quantity": "5 & above",
-         "bulk_price": "$68.40",
-         "savings": "20%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "1000 Sheets / Box"
-      ]
-   },
-   {
-      "product_name": "Computer Form Paper 2-Ply NCR (9.5\" x 11\") 800'S White/Pink",
-      "img": "",
-      "category": "ComputerFormPaper",
-      "price": {
-         "current_price": "$43.20",
-         "savings": "10%",
-         "price_before_gst": "$39.63",
-         "retail_price": "$48.00"
-      },
-      "bulk_pricing": {
-         "quantity": "5 & above",
-         "bulk_price": "$38.40",
-         "savings": "20%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "800 Sheets / Box"
-      ]
-   }
+  {
+    "id": "custom_1757001701061_0_6ev552d00",
+    "product_name": "Computer Form Paper 1-Ply (9.5\" x 11\") 2000'S White",
+    "img": "",
+    "category": "ComputerFormPaper",
+    "price": {
+      "current_price": 33.3,
+      "savings": "10%",
+      "price_before_gst": 30.55,
+      "retail_price": 37
+    },
+    "bulk_pricing": {
+      "quantity": "5 & above",
+      "bulk_price": 29.6,
+      "savings": "20%",
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "2000 Sheets / Box"
+    ]
+  },
+  {
+    "id": "custom_1757001701061_1_zqtstvu6u",
+    "product_name": "Computer Form Paper 2-Ply NCR (15\" x 11\") 1000'S White/Yellow",
+    "img": "",
+    "category": "ComputerFormPaper",
+    "price": {
+      "current_price": 76.9,
+      "savings": "10%",
+      "price_before_gst": 70.55,
+      "retail_price": 85
+    },
+    "bulk_pricing": {
+      "quantity": "5 & above",
+      "bulk_price": 68.4,
+      "savings": "20%",
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "1000 Sheets / Box"
+    ]
+  },
+  {
+    "id": "custom_1757001701061_2_ftjj1kv4y",
+    "product_name": "Computer Form Paper 2-Ply NCR (9.5\" x 11\") 800'S White/Pink",
+    "img": "",
+    "category": "ComputerFormPaper",
+    "price": {
+      "current_price": 43.2,
+      "savings": "10%",
+      "price_before_gst": 39.63,
+      "retail_price": 48
+    },
+    "bulk_pricing": {
+      "quantity": "5 & above",
+      "bulk_price": 38.4,
+      "savings": "20%",
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "800 Sheets / Box"
+    ]
+  }
 ]

@@ -1,30 +1,31 @@
 [
-   {
-      "product_name": "3M Post-it Extreme Notes (3\" x 3\") 3'S Water-Resistant",
-      "img": "",
-      "category": "PremiumColouredNotes",
-      "price": {
-         "current_price": "$6.80",
-         "savings": "3%",
-         "price_before_gst": "$6.24",
-         "retail_price": "$7.00"
-      },
-      "bulk_pricing": {
-         "quantity": "48 & above",
-         "bulk_price": "$6.60",
-         "savings": "6%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "3 Pads / Pack",
-         "45 Sheets / Pad",
-         "Removes Cleanly",
-         "Can be Used Indoor & Outdoor",
-         "Sticks in Hot & Cold Environments",
-         "Water Resistant, Durable & Writable",
-         "Sticks to Textured Surfaces & in Tough Conditions",
-         "Made with Ultra-Strong Dura-Hold™ Paper & Adhesive",
-         "Not Recommended for Use on Paper or Other Delicate Surfaces"
-      ]
-   }
+  {
+    "product_name": "3M Post-it Extreme Notes (3\" x 3\") 3'S Water-Resistant",
+    "img": "",
+    "category": "PremiumColouredNotes",
+    "price": {
+      "current_price": 6.8,
+      "savings": 3,
+      "price_before_gst": 6.24,
+      "retail_price": 7
+    },
+    "bulk_pricing": {
+      "quantity": "48 & above",
+      "bulk_price": 6.6,
+      "savings": 6,
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "3 Pads / Pack",
+      "45 Sheets / Pad",
+      "Removes Cleanly",
+      "Can be Used Indoor & Outdoor",
+      "Sticks in Hot & Cold Environments",
+      "Water Resistant, Durable & Writable",
+      "Sticks to Textured Surfaces & in Tough Conditions",
+      "Made with Ultra-Strong Dura-Hold™ Paper & Adhesive",
+      "Not Recommended for Use on Paper or Other Delicate Surfaces"
+    ],
+    "id": "custom_1757001701092_0_8uksgkid3"
+  }
 ]

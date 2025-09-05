@@ -36,7 +36,11 @@ export default function Layout() {
                <div className="hidden md:flex items-center space-x-6 ml-auto">
                   <Search />
                   <Saved />
-                  <Cart />
+                  <Link to='/cart'>
+                     <Cart />
+                  </Link>
+
+
                </div>
             </div>
          </header>

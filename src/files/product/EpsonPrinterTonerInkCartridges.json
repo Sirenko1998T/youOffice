@@ -1,45 +1,47 @@
 [
-   {
-      "product_name": "Epson Ink Bottle (001) Black",
-      "img": "",
-      "category": "EpsonPrinterTonerInkCartridges",
-      "price": {
-         "current_price": "$16.00",
-         "savings": "",
-         "price_before_gst": "$14.68",
-         "retail_price": ""
+  {
+    "id": "custom_1757001701073_0_fqm5cgi62",
+    "product_name": "Epson Ink Bottle (001) Black",
+    "img": "",
+    "category": "EpsonPrinterTonerInkCartridges",
+    "price": {
+      "current_price": 16,
+      "savings": "",
+      "price_before_gst": 14.68,
+      "retail_price": null
+    },
+    "bulk_pricing": {},
+    "features": [
+      "L14150, L4150, L4160, L4260, L4266, L6160, L6170, L6190, L6260, L6270, L6290",
+      "Approx. Yield: 7,500 Pages"
+    ]
+  },
+  {
+    "id": "custom_1757001701073_1_60vk0qebk",
+    "product_name": "Epson Ink Bottle (001) Colour",
+    "img": "",
+    "category": "EpsonPrinterTonerInkCartridges",
+    "price": {
+      "current_price": 10.5,
+      "savings": "",
+      "price_before_gst": 9.63,
+      "retail_price": null
+    },
+    "bulk_pricing": {},
+    "features": [
+      "L14150, L4150, L4160, L4260, L4266, L6160, L6170, L6190, L6260, L6270, L6290",
+      "Approx. Yield: 6,000 Pages Each"
+    ],
+    "available_options": [
+      {
+        "type": "Cyan"
       },
-      "bulk_pricing": {},
-      "features": [
-         "L14150, L4150, L4160, L4260, L4266, L6160, L6170, L6190, L6260, L6270, L6290",
-         "Approx. Yield: 7,500 Pages"
-      ]
-   },
-   {
-      "product_name": "Epson Ink Bottle (001) Colour",
-      "img": "",
-      "category": "EpsonPrinterTonerInkCartridges",
-      "price": {
-         "current_price": "$10.50",
-         "savings": "",
-         "price_before_gst": "$9.63",
-         "retail_price": ""
+      {
+        "type": "Magenta"
       },
-      "bulk_pricing": {},
-      "features": [
-         "L14150, L4150, L4160, L4260, L4266, L6160, L6170, L6190, L6260, L6270, L6290",
-         "Approx. Yield: 6,000 Pages Each"
-      ],
-      "available_options": [
-         {
-            "type": "Cyan"
-         },
-         {
-            "type": "Magenta"
-         },
-         {
-            "type": "Yellow"
-         }
-      ]
-   }
+      {
+        "type": "Yellow"
+      }
+    ]
+  }
 ]

@@ -1,31 +1,32 @@
 [
-   {
-      "product_name": "HnO Pop-Up Flags (0.5\" x 1.7\") 4-Colour",
-      "img": "",
-      "category": "FlagsTabs",
-      "price": {
-         "current_price": "$3.15",
-         "savings": "10%",
-         "price_before_gst": "$2.89",
-         "retail_price": "$3.50"
+  {
+    "id": "custom_1757001701074_0_whnojxt3x",
+    "product_name": "HnO Pop-Up Flags (0.5\" x 1.7\") 4-Colour",
+    "img": "",
+    "category": "FlagsTabs",
+    "price": {
+      "current_price": 3.15,
+      "savings": 10,
+      "price_before_gst": 2.89,
+      "retail_price": 3.5
+    },
+    "bulk_pricing": {
+      "quantity": "20 & above",
+      "bulk_price": 2.8,
+      "savings": 20,
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "120 Flags / Pack",
+      "(0.5\" x 1.7\") = (12mm x 45mm)"
+    ],
+    "available_options": [
+      {
+        "type": "Red, Yellow, Green, Blue"
       },
-      "bulk_pricing": {
-         "quantity": "20 & above",
-         "bulk_price": "$2.80",
-         "savings": "20%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "120 Flags / Pack",
-         "(0.5\" x 1.7\") = (12mm x 45mm)"
-      ],
-      "available_options": [
-         {
-            "type": "Red, Yellow, Green, Blue"
-         },
-         {
-            "type": "Yellow, Purple, Pink, Blue"
-         }
-      ]
-   }
+      {
+        "type": "Yellow, Purple, Pink, Blue"
+      }
+    ]
+  }
 ]

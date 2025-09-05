@@ -1,63 +1,66 @@
 [
-   {
-      "product_name": "3M Notefix NF4 (3\" x 3\")",
-      "img": "",
-      "category": "CanaryYellowNotes",
-      "price": {
-         "current_price": "$0.99",
-         "savings": "3%",
-         "price_before_gst": "$0.91",
-         "retail_price": "$1.02"
-      },
-      "bulk_pricing": {
-         "quantity": "12 & above",
-         "bulk_price": "$0.96",
-         "savings": "6%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "100 Sheets / Pad"
-      ]
-   },
-   {
-      "product_name": "3M Notefix NF5 (3\" x 5\")",
-      "img": "",
-      "category": "CanaryYellowNotes",
-      "price": {
-         "current_price": "$1.75",
-         "savings": "3%",
-         "price_before_gst": "$1.61",
-         "retail_price": "$1.80"
-      },
-      "bulk_pricing": {
-         "quantity": "12 & above",
-         "bulk_price": "$1.69",
-         "savings": "6%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "100 Sheets / Pad"
-      ]
-   },
-   {
-      "product_name": "3M Post-it Notes 653CY (1.5\" x 2\") 12'S",
-      "img": "",
-      "category": "CanaryYellowNotes",
-      "price": {
-         "current_price": "$8.65",
-         "savings": "3%",
-         "price_before_gst": "$7.94",
-         "retail_price": "$8.90"
-      },
-      "bulk_pricing": {
-         "quantity": "36 & above",
-         "bulk_price": "$8.35",
-         "savings": "6%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "12 Pads / Pack",
-         "100 Sheets / Pad"
-      ]
-   }
+  {
+    "id": "custom_1757001701055_0_58dv168sk",
+    "product_name": "3M Notefix NF4 (3\" x 3\")",
+    "img": "",
+    "category": "CanaryYellowNotes",
+    "price": {
+      "current_price": 0.99,
+      "savings": "3%",
+      "price_before_gst": 0.91,
+      "retail_price": 1.02
+    },
+    "bulk_pricing": {
+      "quantity": "12 & above",
+      "bulk_price": 0.96,
+      "savings": "6%",
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "100 Sheets / Pad"
+    ]
+  },
+  {
+    "id": "custom_1757001701055_1_s7zxq9kdo",
+    "product_name": "3M Notefix NF5 (3\" x 5\")",
+    "img": "",
+    "category": "CanaryYellowNotes",
+    "price": {
+      "current_price": 1.75,
+      "savings": "3%",
+      "price_before_gst": 1.61,
+      "retail_price": 1.8
+    },
+    "bulk_pricing": {
+      "quantity": "12 & above",
+      "bulk_price": 1.69,
+      "savings": "6%",
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "100 Sheets / Pad"
+    ]
+  },
+  {
+    "id": "custom_1757001701055_2_kf9lnocec",
+    "product_name": "3M Post-it Notes 653CY (1.5\" x 2\") 12'S",
+    "img": "",
+    "category": "CanaryYellowNotes",
+    "price": {
+      "current_price": 8.65,
+      "savings": "3%",
+      "price_before_gst": 7.94,
+      "retail_price": 8.9
+    },
+    "bulk_pricing": {
+      "quantity": "36 & above",
+      "bulk_price": 8.35,
+      "savings": "6%",
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "12 Pads / Pack",
+      "100 Sheets / Pad"
+    ]
+  }
 ]

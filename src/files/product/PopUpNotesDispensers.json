@@ -1,22 +1,23 @@
 [
-   {
-      "product_name": "3M Post-it Super Sticky Pop-Up Notes R330-12SSCY (3\" x 3\") 12'S",
-      "img": "",
-      "category": "PopUpNotesDispensers",
-      "price": {
-         "current_price": "$23.12",
-         "savings": "3%",
-         "price_before_gst": "$21.21",
-         "retail_price": "$23.83"
-      },
-      "bulk_pricing": {
-         "quantity": "12 & above",
-         "bulk_price": "$22.40",
-         "savings": "6%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "12 Pads / Pack"
-      ]
-   }
+  {
+    "product_name": "3M Post-it Super Sticky Pop-Up Notes R330-12SSCY (3\" x 3\") 12'S",
+    "img": "",
+    "category": "PopUpNotesDispensers",
+    "price": {
+      "current_price": 23.12,
+      "savings": 3,
+      "price_before_gst": 21.21,
+      "retail_price": 23.83
+    },
+    "bulk_pricing": {
+      "quantity": "12 & above",
+      "bulk_price": 22.4,
+      "savings": 6,
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "12 Pads / Pack"
+    ],
+    "id": "custom_1757001701091_0_gt7t4ph00"
+  }
 ]

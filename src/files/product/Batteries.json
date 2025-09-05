@@ -1,57 +1,59 @@
 [
-   {
-      "product_name": "GP Ultra Alkaline Battery (AA, AAA) 6'S",
-      "category": "Batteries",
-      "img": "",
-      "price": {
-         "current_price": "$4.07",
-         "savings": "3%",
-         "price_before_gst": "$3.73",
-         "retail_price": "$4.20"
+  {
+    "id": "custom_1757001701051_0_6w8w684pa",
+    "product_name": "GP Ultra Alkaline Battery (AA, AAA) 6'S",
+    "category": "Batteries",
+    "img": "",
+    "price": {
+      "current_price": 4.07,
+      "savings": "3%",
+      "price_before_gst": 3.73,
+      "retail_price": 4.2
+    },
+    "bulk_pricing": {
+      "quantity": "12 & above",
+      "bulk_price": 3.95,
+      "savings": "6%",
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "6 Batteries / Pack",
+      "High Performance",
+      "Superb Operating Time"
+    ],
+    "available_options": [
+      {
+        "type": "AA"
+      }
+    ]
+  },
+  {
+    "id": "custom_1757001701051_1_33iye588p",
+    "product_name": "Energizer Alkaline Battery (AA, AAA) 4'S",
+    "category": "Batteries",
+    "img": "",
+    "price": {
+      "current_price": 3.6,
+      "savings": "10%",
+      "price_before_gst": 3.3,
+      "retail_price": 4
+    },
+    "bulk_pricing": {
+      "quantity": "20 & above",
+      "bulk_price": 3.2,
+      "savings": "20%",
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "4 Batteries / Pack"
+    ],
+    "available_options": [
+      {
+        "type": "AA"
       },
-      "bulk_pricing": {
-         "quantity": "12 & above",
-         "bulk_price": "$3.95",
-         "savings": "6%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "6 Batteries / Pack",
-         "High Performance",
-         "Superb Operating Time"
-      ],
-      "available_options": [
-         {
-            "type": "AA"
-         }
-      ]
-   },
-   {
-      "product_name": "Energizer Alkaline Battery (AA, AAA) 4'S",
-      "category": "Batteries",
-      "img": "",
-      "price": {
-         "current_price": "$3.60",
-         "savings": "10%",
-         "price_before_gst": "$3.30",
-         "retail_price": "$4.00"
-      },
-      "bulk_pricing": {
-         "quantity": "20 & above",
-         "bulk_price": "$3.20",
-         "savings": "20%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "4 Batteries / Pack"
-      ],
-      "available_options": [
-         {
-            "type": "AA"
-         },
-         {
-            "type": "AAA"
-         }
-      ]
-   }
+      {
+        "type": "AAA"
+      }
+    ]
+  }
 ]

@@ -1,29 +1,30 @@
 [
-   {
-      "product_name": "3M Scotch Anti-Bacterial Titanium Detachable Kitchen Scissors",
-      "img": "",
-      "category": "Scissors",
-      "price": {
-         "current_price": "$21.68",
-         "savings": "20%",
-         "price_before_gst": "$19.89",
-         "retail_price": "$27.10"
-      },
-      "bulk_pricing": {},
-      "features": [
-         "4x Stronger Blades",
-         "Superior sharpness and rust resistance",
-         "Detachable blades for easier and more thorough cleaning",
-         "Anti-Bacterial Blade & Handle Reduce Bacterial Growth",
-         "Nonstick Oil Repelling Titanium Coated Blades for Easy Cleaning",
-         "Treated with 3M's Electro-Polishing Process to Prevent Corrosion",
-         "Soft Streamlined Handles to Help Relieve Stress on Fingers & Providing More Comfortable Grip",
-         "Colour-coded scissors can help minimize the probability of cross-contamination, lessening the possibility of poisoning through cross-contamination."
-      ],
-      "available_options": [
-         {
-            "type": "Purple"
-         }
-      ]
-   }
+  {
+    "product_name": "3M Scotch Anti-Bacterial Titanium Detachable Kitchen Scissors",
+    "img": "",
+    "category": "Scissors",
+    "price": {
+      "current_price": 21.68,
+      "savings": 20,
+      "price_before_gst": 19.89,
+      "retail_price": 27.1
+    },
+    "bulk_pricing": {},
+    "features": [
+      "4x Stronger Blades",
+      "Superior sharpness and rust resistance",
+      "Detachable blades for easier and more thorough cleaning",
+      "Anti-Bacterial Blade & Handle Reduce Bacterial Growth",
+      "Nonstick Oil Repelling Titanium Coated Blades for Easy Cleaning",
+      "Treated with 3M's Electro-Polishing Process to Prevent Corrosion",
+      "Soft Streamlined Handles to Help Relieve Stress on Fingers & Providing More Comfortable Grip",
+      "Colour-coded scissors can help minimize the probability of cross-contamination, lessening the possibility of poisoning through cross-contamination."
+    ],
+    "available_options": [
+      {
+        "type": "Purple"
+      }
+    ],
+    "id": "custom_1757001701095_0_6rh0f3j4m"
+  }
 ]

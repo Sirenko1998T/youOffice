@@ -1,24 +1,25 @@
 [
-   {
-      "product_name": "Avery Lever Arch Filing Labels 200'S (200 x 60mm)",
-      "img": "",
-      "category": "WhiteLabels",
-      "price": {
-         "current_price": "$30.50",
-         "savings": "5%",
-         "price_before_gst": "$27.98",
-         "retail_price": "$32.10"
-      },
-      "bulk_pricing": {
-         "quantity": "5 & above",
-         "bulk_price": "$28.90",
-         "savings": "10%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "25 Sheets / Pack",
-         "4 Labels / Sheet",
-         "100 Labels / Pack"
-      ]
-   }
+  {
+    "product_name": "Avery Lever Arch Filing Labels 200'S (200 x 60mm)",
+    "img": null,
+    "category": "WhiteLabels",
+    "price": {
+      "current_price": 30.5,
+      "savings": 5,
+      "price_before_gst": 27.98,
+      "retail_price": 32.1
+    },
+    "bulk_pricing": {
+      "quantity": "5 & above",
+      "bulk_price": 28.9,
+      "savings": 10,
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "25 Sheets / Pack",
+      "4 Labels / Sheet",
+      "100 Labels / Pack"
+    ],
+    "id": "custom_1757001701100_0_y272or8ci"
+  }
 ]

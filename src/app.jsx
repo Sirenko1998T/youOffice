@@ -10,6 +10,7 @@ import ContactUs from "./pages/contactUs.jsx";
 import Home from "./pages/home.jsx";
 import ProductPage from "./pages/productPage.jsx";
 import CategoryPage from "./pages/categoryPage.jsx";
+import CartPage from "./pages/cartPage.jsx";
 import { CartProvider } from "./components/context/cartContext.jsx";
 export default function App() {
 
@@ -21,6 +22,7 @@ export default function App() {
                <Route path="/" element={<Layout />} >
                   <Route index element={<Home />} />
                   <Route path="register" element={<Register />} />
+                  <Route path="cart" element={<CartPage />} />
                   <Route path="home" element={<Home />} />
                   <Route path="login" element={<Login />} />
                   <Route path="reset" element={<Reset />} />

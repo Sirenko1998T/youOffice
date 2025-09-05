@@ -1,29 +1,30 @@
 [
-   {
-      "product_name": "Max N-1007 Numbering Machine 10 Digits",
-      "img": "",
-      "category": "NumberingMachines",
-      "price": {
-         "current_price": "$253.44",
-         "savings": "5%",
-         "price_before_gst": "$232.51",
-         "retail_price": "$266.78"
-      },
-      "bulk_pricing": {
-         "quantity": "5 & above",
-         "bulk_price": "$240.10",
-         "savings": "10%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "Height: 4.5mm",
-         "Width: 2.8mm",
-         "Character Gap: 1.0mm",
-         "Maximum Digits Width: 37.8mm",
-         "Non-Strip Handle",
-         "Full Metal Frame Design",
-         "Built-In Drop Cipher Feature",
-         "Smooth Operation & Long Life"
-      ]
-   }
+  {
+    "product_name": "Max N-1007 Numbering Machine 10 Digits",
+    "img": "",
+    "category": "NumberingMachines",
+    "price": {
+      "current_price": 253.44,
+      "savings": "5%",
+      "price_before_gst": 232.51,
+      "retail_price": 266.78
+    },
+    "bulk_pricing": {
+      "quantity": "5 & above",
+      "bulk_price": 240.1,
+      "savings": "10%",
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "Height: 4.5mm",
+      "Width: 2.8mm",
+      "Character Gap: 1.0mm",
+      "Maximum Digits Width: 37.8mm",
+      "Non-Strip Handle",
+      "Full Metal Frame Design",
+      "Built-In Drop Cipher Feature",
+      "Smooth Operation & Long Life"
+    ],
+    "id": "custom_1757001701085_0_fjx65mkpn"
+  }
 ]

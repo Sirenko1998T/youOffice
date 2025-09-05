@@ -1,30 +1,31 @@
 [
-   {
-      "product_name": "Notarial Common Seal (100 Seals) 51mm (Gold, Silver)",
-      "img": "",
-      "category": "ClearLabelsNotarialSeals",
-      "price": {
-         "current_price": "$4.90",
-         "savings": "10%",
-         "price_before_gst": "$4.50",
-         "retail_price": "$5.45"
+  {
+    "id": "custom_1757001701058_0_e615wtu0x",
+    "product_name": "Notarial Common Seal (100 Seals) 51mm (Gold, Silver)",
+    "img": "",
+    "category": "ClearLabelsNotarialSeals",
+    "price": {
+      "current_price": 4.9,
+      "savings": "10%",
+      "price_before_gst": 4.5,
+      "retail_price": 5.45
+    },
+    "bulk_pricing": {
+      "quantity": "10 & above",
+      "bulk_price": 4.35,
+      "savings": "20%",
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "100 Seals / Pack"
+    ],
+    "available_options": [
+      {
+        "type": "Gold"
       },
-      "bulk_pricing": {
-         "quantity": "10 & above",
-         "bulk_price": "$4.35",
-         "savings": "20%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "100 Seals / Pack"
-      ],
-      "available_options": [
-         {
-            "type": "Gold"
-         },
-         {
-            "type": "Silver"
-         }
-      ]
-   }
+      {
+        "type": "Silver"
+      }
+    ]
+  }
 ]

@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 import { CartContext } from './context/cartContext.jsx';
 
 export default function ProductCard({ product, details = false }) {
-   const { count, increase, reduce } = useContext(CartContext);
+
+   const { count, increase, reduce, addProduct } = useContext(CartContext);
    const [showOptions, setShowOptions] = useState(true);
 
    return (
@@ -86,8 +87,7 @@ export default function ProductCard({ product, details = false }) {
                                           reduce={() => reduce(product.id, option.type)}
                                           count={count[product.id]?.[option.type] || 0}
                                           increase={() => increase(product.id, option.type)}
-                                          name="QTY"
-                                       />
+                                          name="QTY" />
                                     </div>
                                  </li>
                               ))}
@@ -97,23 +97,36 @@ export default function ProductCard({ product, details = false }) {
                   ) : (
                      <div className="mt-2">
                         <CountProduct
-                           reduce={() => reduce(product.id, "default")}
-                           count={count[product.id]?.["default"] || 0}
-                           increase={() => increase(product.id, "default")}
+                           reduce={() => reduce(product.id, 'default')}
+                           count={count[product.id]?.['default'] || 0}
+
+
+                           increase={() => increase(product.id, 'default')}
                            name="QTY"
                         />
+
                      </div>
-                  )}
+                  )
+                  }
                </div>
+
             </div>
+
          )}
 
          <Button
             label="Add to Cart"
-            onClick={() =>
-               console.log(`Added ${product?.product_name} to cart`)
-            }
+            onClick={() => {
+               if (product?.available_options) {
+                  product.available_options.forEach((option) => {
+                     addProduct(product, option.type);
+                  });
+               } else {
+                  addProduct(product, "default");
+               }
+            }}
          />
+
       </div>
    );
 }

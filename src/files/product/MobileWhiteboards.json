@@ -1,28 +1,29 @@
 [
-   {
-      "product_name": "Magnetic Flip Chart Whiteboard (60 x 90cm) Castor Wheel - White Frame",
-      "img": "",
-      "category": "MobileWhiteboards",
-      "price": {
-         "current_price": "$152.10",
-         "savings": "10%",
-         "price_before_gst": "$139.54",
-         "retail_price": "$169.00"
-      },
-      "bulk_pricing": {
-         "quantity": "3 & above",
-         "bulk_price": "$135.20",
-         "savings": "20%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "Paper Clamp",
-         "Full Size Pen Tray",
-         "Retractable Coated Steel Tube Legs",
-         "Round-Shaped Base w/5-Lockable Wheels",
-         "Assembly Required (Assembly Instructions Included)",
-         "Coated Steel Surface with Magnetic, MDF Core, Melamine Back",
-         "Dimensions: 65 x 10.5 x 180cm"
-      ]
-   }
+  {
+    "id": "custom_1757001701083_0_sgzl3cnr8",
+    "product_name": "Magnetic Flip Chart Whiteboard (60 x 90cm) Castor Wheel - White Frame",
+    "img": "",
+    "category": "MobileWhiteboards",
+    "price": {
+      "current_price": 152.1,
+      "savings": 10,
+      "price_before_gst": 139.54,
+      "retail_price": 169
+    },
+    "bulk_pricing": {
+      "quantity": "3 & above",
+      "bulk_price": 135.2,
+      "savings": 20,
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "Paper Clamp",
+      "Full Size Pen Tray",
+      "Retractable Coated Steel Tube Legs",
+      "Round-Shaped Base w/5-Lockable Wheels",
+      "Assembly Required (Assembly Instructions Included)",
+      "Coated Steel Surface with Magnetic, MDF Core, Melamine Back",
+      "Dimensions: 65 x 10.5 x 180cm"
+    ]
+  }
 ]

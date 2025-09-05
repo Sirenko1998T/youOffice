@@ -1,27 +1,28 @@
 [
-   {
-      "product_name": "Mesh 2-Tier Document Tray",
-      "img": "",
-      "category": "MeshProducts",
-      "price": {
-         "current_price": "$11.82",
-         "savings": "10%",
-         "price_before_gst": "$10.84",
-         "retail_price": "$13.13"
-      },
-      "bulk_pricing": {
-         "quantity": "12 & above",
-         "bulk_price": "$10.63",
-         "savings": "19%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "Easy to Assemble"
-      ],
-      "available_options": [
-         {
-            "type": "Silver"
-         }
-      ]
-   }
+  {
+    "id": "custom_1757001701082_0_l4azr7j9t",
+    "product_name": "Mesh 2-Tier Document Tray",
+    "img": "",
+    "category": "MeshProducts",
+    "price": {
+      "current_price": 11.82,
+      "savings": 10,
+      "price_before_gst": 10.84,
+      "retail_price": 13.13
+    },
+    "bulk_pricing": {
+      "quantity": "12 & above",
+      "bulk_price": 10.63,
+      "savings": 19,
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "Easy to Assemble"
+    ],
+    "available_options": [
+      {
+        "type": "Silver"
+      }
+    ]
+  }
 ]

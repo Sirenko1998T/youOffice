@@ -1,63 +1,65 @@
 [
-   {
-      "product_name": "HnO Ring Notebook w/PP Cover A5",
-      "img": "",
-      "category": "Notebooks",
-      "price": {
-         "current_price": "$2.62",
-         "savings": "10%",
-         "price_before_gst": "$2.40",
-         "retail_price": "$2.91"
+  {
+    "product_name": "HnO Ring Notebook w/PP Cover A5",
+    "img": "",
+    "category": "Notebooks",
+    "price": {
+      "current_price": 2.62,
+      "savings": "10%",
+      "price_before_gst": 2.4,
+      "retail_price": 2.91
+    },
+    "bulk_pricing": {
+      "quantity": "12 & above",
+      "bulk_price": 2.3,
+      "savings": "21%",
+      "note": "same colour, same size etc."
+    },
+    "features": [],
+    "available_options": [
+      {
+        "type": "Green"
       },
-      "bulk_pricing": {
-         "quantity": "12 & above",
-         "bulk_price": "$2.30",
-         "savings": "21%",
-         "note": "same colour, same size etc."
+      {
+        "type": "Dark-Blue"
       },
-      "features": [],
-      "available_options": [
-         {
-            "type": "Green"
-         },
-         {
-            "type": "Dark-Blue"
-         },
-         {
-            "type": "Light-Blue"
-         }
-      ]
-   },
-   {
-      "product_name": "HnO Ring Notebook w/PP Cover B5",
-      "img": "",
-      "category": "Notebooks",
-      "price": {
-         "current_price": "$3.42",
-         "savings": "10%",
-         "price_before_gst": "$3.14",
-         "retail_price": "$3.80"
+      {
+        "type": "Light-Blue"
+      }
+    ],
+    "id": "custom_1757001701084_0_r0wbo7fk3"
+  },
+  {
+    "product_name": "HnO Ring Notebook w/PP Cover B5",
+    "img": "",
+    "category": "Notebooks",
+    "price": {
+      "current_price": 3.42,
+      "savings": "10%",
+      "price_before_gst": 3.14,
+      "retail_price": 3.8
+    },
+    "bulk_pricing": {
+      "quantity": "12 & above",
+      "bulk_price": 3.04,
+      "savings": "20%",
+      "note": "same colour, same size etc."
+    },
+    "features": [],
+    "available_options": [
+      {
+        "type": "Black"
       },
-      "bulk_pricing": {
-         "quantity": "12 & above",
-         "bulk_price": "$3.04",
-         "savings": "20%",
-         "note": "same colour, same size etc."
+      {
+        "type": "Green"
       },
-      "features": [],
-      "available_options": [
-         {
-            "type": "Black"
-         },
-         {
-            "type": "Green"
-         },
-         {
-            "type": "Dark-Blue"
-         },
-         {
-            "type": "Light-Blue"
-         }
-      ]
-   }
+      {
+        "type": "Dark-Blue"
+      },
+      {
+        "type": "Light-Blue"
+      }
+    ],
+    "id": "custom_1757001701084_1_5zb5yjkjp"
+  }
 ]

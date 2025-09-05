@@ -1,27 +1,28 @@
 [
-   {
-      "product_name": "Hansa LED Space Lamp",
-      "img": "",
-      "category": "DeskTableLEDLamp",
-      "price": {
-         "current_price": "$56.80",
-         "savings": "20%",
-         "price_before_gst": "$52.11",
-         "retail_price": "$71.00"
+  {
+    "id": "custom_1757001701067_0_l2tixtnds",
+    "product_name": "Hansa LED Space Lamp",
+    "img": "",
+    "category": "DeskTableLEDLamp",
+    "price": {
+      "current_price": 56.8,
+      "savings": "20%",
+      "price_before_gst": 52.11,
+      "retail_price": 71
+    },
+    "features": [
+      "Snazzy, compact LED lamp in three trendy colours",
+      "High-Quality surface finish (silk mat)",
+      "Variously adjustable at the arm and the lamp head",
+      "Pleasant reading light"
+    ],
+    "available_options": [
+      {
+        "type": "Silver"
       },
-      "features": [
-         "Snazzy, compact LED lamp in three trendy colours",
-         "High-Quality surface finish (silk mat)",
-         "Variously adjustable at the arm and the lamp head",
-         "Pleasant reading light"
-      ],
-      "available_options": [
-         {
-            "type": "Silver"
-         },
-         {
-            "type": "Night-Blue"
-         }
-      ]
-   }
+      {
+        "type": "Night-Blue"
+      }
+    ]
+  }
 ]

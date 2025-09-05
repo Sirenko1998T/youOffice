@@ -1,71 +1,74 @@
 [
-   {
-      "product_name": "Avery C32016-25 Business Cards 85X54MM 250'S",
-      "img": "",
-      "category": "FabricLabelsTentCards",
-      "price": {
-         "current_price": "$46.60",
-         "savings": "5%",
-         "price_before_gst": "$42.75",
-         "retail_price": "$49.05"
-      },
-      "bulk_pricing": {
-         "quantity": "5 & above",
-         "bulk_price": "$44.15",
-         "savings": "10%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "Heavyweight cards 220gsm",
-         "Satin finish cards give a professional feel",
-         "250 Cards / Pack",
-         "25 Sheets / Pack",
-         "10 Cards / Sheet"
-      ]
-   },
-   {
-      "product_name": "Avery Fabric Name Badge Labels 120'S (86.5 x 55.5mm)",
-      "img": "",
-      "category": "FabricLabelsTentCards",
-      "price": {
-         "current_price": "$45.97",
-         "savings": "5%",
-         "price_before_gst": "$42.17",
-         "retail_price": "$48.15"
-      },
-      "bulk_pricing": {
-         "quantity": "5 & above",
-         "bulk_price": "$43.57",
-         "savings": "10%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "15 Sheets / Pack",
-         "8 Labels / Sheet",
-         "120 Labels / Pack"
-      ]
-   },
-   {
-      "product_name": "Avery Fabric Name Badge Labels 200'S (80 x 50mm)",
-      "best_deals": true,
-      "img": "",
-      "category": "FabricLabelsTentCards",
-      "price": {
-         "current_price": "$73.56",
-         "savings": "5%",
-         "price_before_gst": "$67.49",
-         "retail_price": "$77.04"
-      },
-      "bulk_pricing": {
-         "quantity": "5 & above",
-         "bulk_price": "$69.72",
-         "savings": "10%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "20 Sheets / Pack",
-         "10 Labels / Sheet",
-         "200 Labels / Pack"
-      ]
-   }
+  {
+    "id": "custom_1757001701074_0_m8l2t5ev8",
+    "product_name": "Avery C32016-25 Business Cards 85X54MM 250'S",
+    "img": "",
+    "category": "FabricLabelsTentCards",
+    "price": {
+      "current_price": 46.6,
+      "savings": 5,
+      "price_before_gst": 42.75,
+      "retail_price": 49.05
+    },
+    "bulk_pricing": {
+      "quantity": "5 & above",
+      "bulk_price": 44.15,
+      "savings": 10,
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "Heavyweight cards 220gsm",
+      "Satin finish cards give a professional feel",
+      "250 Cards / Pack",
+      "25 Sheets / Pack",
+      "10 Cards / Sheet"
+    ]
+  },
+  {
+    "id": "custom_1757001701074_1_pggl0ng5m",
+    "product_name": "Avery Fabric Name Badge Labels 120'S (86.5 x 55.5mm)",
+    "img": "",
+    "category": "FabricLabelsTentCards",
+    "price": {
+      "current_price": 45.97,
+      "savings": 5,
+      "price_before_gst": 42.17,
+      "retail_price": 48.15
+    },
+    "bulk_pricing": {
+      "quantity": "5 & above",
+      "bulk_price": 43.57,
+      "savings": 10,
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "15 Sheets / Pack",
+      "8 Labels / Sheet",
+      "120 Labels / Pack"
+    ]
+  },
+  {
+    "id": "custom_1757001701074_2_h9e86ahda",
+    "product_name": "Avery Fabric Name Badge Labels 200'S (80 x 50mm)",
+    "best_deals": true,
+    "img": "",
+    "category": "FabricLabelsTentCards",
+    "price": {
+      "current_price": 73.56,
+      "savings": 5,
+      "price_before_gst": 67.49,
+      "retail_price": 77.04
+    },
+    "bulk_pricing": {
+      "quantity": "5 & above",
+      "bulk_price": 69.72,
+      "savings": 10,
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "20 Sheets / Pack",
+      "10 Labels / Sheet",
+      "200 Labels / Pack"
+    ]
+  }
 ]

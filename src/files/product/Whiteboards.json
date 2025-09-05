@@ -1,46 +1,48 @@
 [
-   {
-      "product_name": "Magnetic Flip Chart Whiteboard (60 x 90cm) Tripod Stand - White Frame",
-      "img": "",
-      "category": "Whiteboards",
-      "price": {
-         "current_price": "$125.10",
-         "savings": "10%",
-         "price_before_gst": "$114.77",
-         "retail_price": "$139.00"
-      },
-      "bulk_pricing": {
-         "quantity": "3 & above",
-         "bulk_price": "$111.20",
-         "savings": "20%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "Full Size Pen Tray",
-         "Retractable Coated Steel Tube Legs",
-         "Assembly Required (Assembly Instructions Included)",
-         "Coated Steel Surface with Magnetic, MDF Core, Melamine Back",
-         "Dimensions: 64 x 7.5 x 180cm"
-      ]
-   },
-   {
-      "product_name": "Magnetic Whiteboard w/Marker Tray (45 x 60cm) Aluminium Frame",
-      "img": "",
-      "category": "Whiteboards",
-      "price": {
-         "current_price": "$19.95",
-         "savings": "10%",
-         "price_before_gst": "$18.30",
-         "retail_price": "$22.17"
-      },
-      "bulk_pricing": {
-         "quantity": "5 & above",
-         "bulk_price": "$17.75",
-         "savings": "20%",
-         "note": "same colour, same size etc."
-      },
-      "features": [
-         "Weight: 1.24kg"
-      ]
-   }
+  {
+    "product_name": "Magnetic Flip Chart Whiteboard (60 x 90cm) Tripod Stand - White Frame",
+    "img": null,
+    "category": "Whiteboards",
+    "price": {
+      "current_price": 125.1,
+      "savings": 10,
+      "price_before_gst": 114.77,
+      "retail_price": 139
+    },
+    "bulk_pricing": {
+      "quantity": "3 & above",
+      "bulk_price": 111.2,
+      "savings": 20,
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "Full Size Pen Tray",
+      "Retractable Coated Steel Tube Legs",
+      "Assembly Required (Assembly Instructions Included)",
+      "Coated Steel Surface with Magnetic, MDF Core, Melamine Back",
+      "Dimensions: 64 x 7.5 x 180cm"
+    ],
+    "id": "custom_1757001701100_0_7dxxed6ik"
+  },
+  {
+    "product_name": "Magnetic Whiteboard w/Marker Tray (45 x 60cm) Aluminium Frame",
+    "img": null,
+    "category": "Whiteboards",
+    "price": {
+      "current_price": 19.95,
+      "savings": 10,
+      "price_before_gst": 18.3,
+      "retail_price": 22.17
+    },
+    "bulk_pricing": {
+      "quantity": "5 & above",
+      "bulk_price": 17.75,
+      "savings": 20,
+      "note": "same colour, same size etc."
+    },
+    "features": [
+      "Weight: 1.24kg"
+    ],
+    "id": "custom_1757001701100_1_d7443ov0w"
+  }
 ]
