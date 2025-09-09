@@ -3,7 +3,11 @@
     "id": "custom_1757001701072_0_9c0ynny6o",
     "product_name": "3M Post-it Tabletop Easel Pad 563R (20\" x 23\")",
     "new_in": true,
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/EaselPadsFlipChartBoards1.jpg?alt=media&token=369450bb-56c9-408f-b7a4-5c5a9214e283",
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/EaselPadsFlipChartBoards2.jpg?alt=media&token=3edc81f6-59b2-435a-9c8e-b7fa4d078b2e",
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/EaselPadsFlipChartBoards3.jpg?alt=media&token=43d80629-01d3-478a-9ae4-980a746cbebe"
+    ],
     "category": "EaselPadsFlipChartBoards",
     "price": {
       "current_price": 36.75,

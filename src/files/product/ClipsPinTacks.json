@@ -2,7 +2,9 @@
   {
     "id": "custom_1757001701059_0_c90up3tl5",
     "product_name": "Gem Paper Clip 100'S 50mm",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/ClipsPinTacks1.jpg?alt=media&token=575f36bd-bdf2-41c5-9075-49cacae02879"
+    ],
     "category": "ClipsPinTacks",
     "price": {
       "current_price": 0.72,
@@ -23,7 +25,11 @@
   {
     "id": "custom_1757001701059_1_gyhltt193",
     "product_name": "HnO Binder Clip (15mm, 5/8\") 12'S",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/ClipsPinTacks21.jpg?alt=media&token=f1c4d595-edab-4ec5-b3a6-d5bae71904ad",
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/ClipsPinTacks22.jpg?alt=media&token=0555f1d2-3d8e-40d1-99a1-ca8c7ad51ddd",
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/ClipsPinTacks23.jpg?alt=media&token=05a404c3-8ec9-4a37-a06a-c5814728bf57"
+    ],
     "category": "ClipsPinTacks",
     "price": {
       "current_price": 0.45,

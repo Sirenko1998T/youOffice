@@ -2,62 +2,73 @@ import React, { useState } from "react";
 import Input from "../components/input";
 import Select from "../components/select";
 import { Link } from "react-router-dom";
+import { AuthService } from "../js/authService";
 
 export default function Register() {
-   const [value, setValue] = useState({
+   const [formData, setFormData] = useState({
       firstName: "",
-      lastName: "",
-      postalCode: "",
-      address1: "",
-      unitNo: "",
-      city: "",
+      email: "",
       password: "",
-      country: "",
-      passwordConfirm: ""
    });
-   let [error, setError] = useState({});
-   let validate = () => {
-      let errors = {};
-      if (!value.firstName) errors.firstName = "First Name is required";
-      if (!value.country) errors.country = "Country is required";
-      if (!value.lastName) errors.lastName = "Last Name is required";
-      if (!value.postalCode) errors.postalCode = "Postal Code is required";
-      if (!value.address1) errors.address1 = "Address 1 is required";
-      if (!value.city) errors.city = "City is required";
-      if (!value.password) errors.password = "Password is required";
 
-      if (value.password !== value.passwordConfirm) {
-         errors.passwordConfirm = "Passwords do not match";
-      }
+   const [loading, setLoading] = useState(false);
+   const [success, setSuccess] = useState('');
+   const [error, setError] = useState({});
+
+   const validate = () => {
+      let errors = {};
+      if (!formData.firstName) errors.firstName = "First Name is required";
+      if (!formData.email) errors.email = "Email is required";
+      if (!formData.password) errors.password = "Password is required";
+
       setError(errors);
       return Object.keys(errors).length === 0;
    }
 
-   let updateValue = (e) => {
-      let { name, value } = e.target;
-      setValue((prevValue) => ({
+   const updateValue = (e) => {
+      const { name, value } = e.target;
+      setFormData((prevValue) => ({
          ...prevValue,
          [name]: value
-      }))
+      }));
    }
-   let handleSubmit = (e) => {
-      e.preventDefault();
-      if (validate()) {
-         alert("Form submitted successfully!");
-         setValue({
-            firstName: "",
-            lastName: "",
-            postalCode: "",
-            address1: "",
-            unitNo: "",
-            city: "",
-            password: "",
-            passwordConfirm: ""
-         });
-         setError({})
 
+   const handleSubmit = async (e) => {
+      e.preventDefault();
+
+      if (!validate()) {
+         return;
+      }
+
+      setLoading(true);
+      setSuccess('');
+      setError({});
+
+      try {
+         const result = await AuthService.register(
+            formData.email,
+            formData.password,
+            formData.firstName
+         );
+
+         if (result.success) {
+            setSuccess('Registration successful!');
+            // Очищаем форму после успешной регистрации
+            setFormData({
+               firstName: "",
+               email: "",
+               password: "",
+            });
+         } else {
+            setError({ general: result.error });
+         }
+      } catch (error) {
+         setError({ general: "An error occurred during registration" });
+      } finally {
+         setLoading(false);
       }
    }
+
    return (
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-4">
          <form onSubmit={handleSubmit} className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
@@ -71,64 +82,37 @@ export default function Register() {
                </p>
             </div>
 
+            {success && (
+               <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
+                  {success}
+               </div>
+            )}
+
+            {error.general && (
+               <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">
+                  {error.general}
+               </div>
+            )}
+
             <div className="space-y-4">
-
                <Input
-
                   label="* First Name"
                   name="firstName"
                   type="text"
                   onChange={updateValue}
                   error={error.firstName}
-                  value={value.firstName}
+                  value={formData.firstName}
+                  required
                />
+
                <Input
-                  label="* Last Name"
-                  name="lastName"
-                  type="text"
+                  label="* Email"
+                  name="email"
+                  type="email"
                   onChange={updateValue}
-                  error={error.lastName}
-                  value={value.lastName}
-               />
-               <Input
-                  label="* Postal Code"
-                  name="postalCode"
-                  type="number"
-                  onChange={updateValue}
-                  error={error.postalCode}
-                  value={value.postalCode}
-               />
-               <Input
-                  label="* Address 1"
-                  name="address1"
-                  type="text"
-                  onChange={updateValue}
-                  error={error.address1}
-                  value={value.address1}
-               />
-               <Input
-                  label="Unit No."
-                  name="unitNo"
-                  type="number"
-                  onChange={updateValue}
-                  error={error.unitNo}
-                  value={value.unitNo}
-               />
-               <Input
-                  label="* City"
-                  name="city"
-                  type="text"
-                  onChange={updateValue}
-                  error={error.city}
-                  value={value.city}
-               />
-               <Select
-                  label="* Country"
-                  name="country"
-                  values={["Singapore", "Malaysia", "Thailand"]}
-                  value={value.country}
-                  onChange={updateValue}
-                  error={error.country}
+                  error={error.email}
+                  value={formData.email}
+                  required
                />
 
                <Input
@@ -137,38 +121,32 @@ export default function Register() {
                   type="password"
                   onChange={updateValue}
                   error={error.password}
-                  value={value.password}
-               />
-               <Input
-                  label=" * Password Confirm"
-                  name="passwordConfirm"
-                  type="password"
-                  onChange={updateValue}
-                  error={error.passwordConfirm}
-                  value={value.passwordConfirm}
+                  value={formData.password}
+                  required
                />
             </div>
 
             <button
                type="submit"
-               className="
-    w-full 
-    bg-blue-600 
-    hover:bg-blue-700 
-    text-white 
-    font-bold 
-    py-3 
-    px-4 
-    rounded-lg 
-    mt-6 
-    transition-colors 
-    duration-200 
-    hover:cursor-pointer
-  "
+               disabled={loading}
+               className={`
+                  w-full 
+                  bg-blue-600 
+                  hover:bg-blue-700 
+                  text-white 
+                  font-bold 
+                  py-3 
+                  px-4 
+                  rounded-lg 
+                  mt-6 
+                  transition-colors 
+                  duration-200
+                  ${loading ? 'opacity-50 cursor-not-allowed' : 'hover:cursor-pointer'}
+               `}
             >
-               Register
+               {loading ? 'Registering...' : 'Register'}
             </button>
          </form>
-      </div >
+      </div>
    );
 }

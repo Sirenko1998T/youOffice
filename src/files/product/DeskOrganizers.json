@@ -2,7 +2,11 @@
   {
     "id": "custom_1757001701067_0_6jvrv8s3y",
     "product_name": "HnO Bookend (180mm, 7\") 2'S",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/DeskOrganizers1.jpg?alt=media&token=102d0136-28b1-4e88-9ebc-ca410da28ab8",
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/DeskOrganizers12.jpg?alt=media&token=7869cd8f-54bf-494d-b12b-62d8e0150ace",
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/DeskOrganizers13.jpg?alt=media&token=783c3f72-3daf-4246-9b96-9c54ad656bd4"
+    ],
     "category": "DeskOrganizers",
     "price": {
       "current_price": 8.19,
@@ -28,7 +32,11 @@
   {
     "id": "custom_1757001701067_1_0hgvtm388",
     "product_name": "HnO Bookend (180mm, 7\") 2'S",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/DeskOrganizers1.jpg?alt=media&token=102d0136-28b1-4e88-9ebc-ca410da28ab8",
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/DeskOrganizers12.jpg?alt=media&token=7869cd8f-54bf-494d-b12b-62d8e0150ace",
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/DeskOrganizers13.jpg?alt=media&token=783c3f72-3daf-4246-9b96-9c54ad656bd4"
+    ],
     "category": "DeskOrganizers",
     "price": {
       "current_price": 8.19,
@@ -54,7 +62,9 @@
   {
     "id": "custom_1757001701067_2_c4527rp9o",
     "product_name": "HnO Bookend (180mm, 7\") 2'S",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/DeskOrganizers2.jpg?alt=media&token=b0ca0acc-d71a-4055-a3e1-224ceda353a6"
+    ],
     "category": "DeskOrganizers",
     "price": {
       "current_price": 8.19,

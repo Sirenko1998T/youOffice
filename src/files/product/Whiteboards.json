@@ -1,7 +1,9 @@
 [
   {
     "product_name": "Magnetic Flip Chart Whiteboard (60 x 90cm) Tripod Stand - White Frame",
-    "img": null,
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/Whiteboards1.jpg?alt=media&token=1fc8536b-6b8b-42ca-9e2d-50f2de795186"
+    ],
     "category": "Whiteboards",
     "price": {
       "current_price": 125.1,
@@ -26,7 +28,9 @@
   },
   {
     "product_name": "Magnetic Whiteboard w/Marker Tray (45 x 60cm) Aluminium Frame",
-    "img": null,
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/Whiteboards2.jpg?alt=media&token=9e8f4957-1525-426c-9d1e-44216491104d"
+    ],
     "category": "Whiteboards",
     "price": {
       "current_price": 19.95,

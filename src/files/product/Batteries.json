@@ -3,7 +3,9 @@
     "id": "custom_1757001701051_0_6w8w684pa",
     "product_name": "GP Ultra Alkaline Battery (AA, AAA) 6'S",
     "category": "Batteries",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/Batteries1.jpg?alt=media&token=da2621b7-f4db-410e-bfc2-8d9489db0c35"
+    ],
     "price": {
       "current_price": 4.07,
       "savings": "3%",
@@ -31,7 +33,9 @@
     "id": "custom_1757001701051_1_33iye588p",
     "product_name": "Energizer Alkaline Battery (AA, AAA) 4'S",
     "category": "Batteries",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/Batteries2.jpeg?alt=media&token=25121ac5-ecb3-4fe7-8777-4d4c99f83210"
+    ],
     "price": {
       "current_price": 3.6,
       "savings": "10%",

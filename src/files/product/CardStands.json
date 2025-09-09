@@ -2,7 +2,10 @@
   {
     "id": "custom_1757001701057_0_cox7yqj9z",
     "product_name": "HnO Display Card Stand (90 x 55mm) Landscape",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/CardStands1.jpg?alt=media&token=abbd421b-7034-4f6b-8e47-84313f8b1c39",
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/CardStands2.jpg?alt=media&token=5aa9f5ce-17dd-4e12-979e-96a8f4c2dd9e"
+    ],
     "category": "CardStands",
     "price": {
       "current_price": 1.3,
@@ -20,7 +23,9 @@
   {
     "id": "custom_1757001701057_1_k1mwj101y",
     "product_name": "HnO Display Card Stand (90 x 55mm) Landscape",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/CardStands3.jpg?alt=media&token=1340664b-e2c0-468c-a6b6-65745f063488"
+    ],
     "category": "CardStands",
     "price": {
       "current_price": 1.3,
@@ -38,7 +43,9 @@
   {
     "id": "custom_1757001701057_2_01ck4yikb",
     "product_name": "HnO Display Card Stand (90 x 55mm) Landscape",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/CardStands3.jpg?alt=media&token=1340664b-e2c0-468c-a6b6-65745f063488"
+    ],
     "category": "CardStands",
     "price": {
       "current_price": 1.3,

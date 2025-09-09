@@ -2,7 +2,10 @@
   {
     "id": "custom_1757001701067_0_l2tixtnds",
     "product_name": "Hansa LED Space Lamp",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/DeskTableLEDLamp1.jpg?alt=media&token=1044878a-3e55-470b-9a8f-d1541ccb0dfe",
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/DeskTableLEDLamp2.jpg?alt=media&token=966d7d51-a80e-4923-93a2-e6afb54ccce4"
+    ],
     "category": "DeskTableLEDLamp",
     "price": {
       "current_price": 56.8,

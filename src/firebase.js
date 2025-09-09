@@ -1,11 +1,9 @@
 // firebase.js
-
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-// Импорт Firestore
 import { getFirestore } from "firebase/firestore";
+import { getAuth } from "firebase/auth"; // Добавлен импорт getAuth
 
-// Ваш веб-конфиг Firebase
 const firebaseConfig = {
    apiKey: "AIzaSyDE-JUYyO8IfwcQTkpKSk672lNPfOWEGPo",
    authDomain: "youoffice-814d4.firebaseapp.com",
@@ -16,11 +14,9 @@ const firebaseConfig = {
    measurementId: "G-XR17DSBWK1"
 };
 
-// Инициализация Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-// Инициализация Firestore
 const db = getFirestore(app);
+const auth = getAuth(app); // Правильная инициализация auth
 
-// Экспортируем db
-export { db };
+export { db, auth };

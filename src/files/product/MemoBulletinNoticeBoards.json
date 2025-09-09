@@ -2,7 +2,9 @@
   {
     "id": "custom_1757001701081_0_jylcngs6c",
     "product_name": "Combo Board w/Marker Tray (60 x 90cm) Aluminium Frame",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/MemoBulletinNoticeBoards1.jpg?alt=media&token=ad0b167a-b23e-4dda-bc5a-3280f5488400"
+    ],
     "category": "MemoBulletinNoticeBoards",
     "price": {
       "current_price": 34.15,
@@ -20,7 +22,9 @@
   {
     "id": "custom_1757001701081_1_5plrfiby5",
     "product_name": "Combo Board w/Marker Tray (90 x 120cm) Aluminium Frame",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/MemoBulletinNoticeBoards1.jpg?alt=media&token=ad0b167a-b23e-4dda-bc5a-3280f5488400"
+    ],
     "category": "MemoBulletinNoticeBoards",
     "price": {
       "current_price": 52.3,
@@ -38,7 +42,9 @@
   {
     "id": "custom_1757001701081_2_ivuis3b83",
     "product_name": "Cork Noticeboard (120 x 150cm) Aluminium Frame",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/MemoBulletinNoticeBoards2.jpg?alt=media&token=5e7f3df5-849b-4438-8727-c74bbae9b9b4"
+    ],
     "category": "MemoBulletinNoticeBoards",
     "price": {
       "current_price": 202.23,
@@ -59,7 +65,9 @@
   {
     "id": "custom_1757001701081_3_mw3mmct3r",
     "product_name": "Cork Noticeboard (120 x 150cm) Aluminium Frame - With Installation",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/MemoBulletinNoticeBoards2.jpg?alt=media&token=5e7f3df5-849b-4438-8727-c74bbae9b9b4"
+    ],
     "category": "MemoBulletinNoticeBoards",
     "price": {
       "current_price": 250.38,
@@ -77,7 +85,9 @@
   {
     "id": "custom_1757001701081_4_pnf6i8dd2",
     "product_name": "Cork Noticeboard (120 x 150cm) Wooden Frame",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/MemoBulletinNoticeBoards3.jpg?alt=media&token=6411c075-1ed9-47a2-92a3-12b01469939f"
+    ],
     "category": "MemoBulletinNoticeBoards",
     "price": {
       "current_price": 321,
@@ -95,7 +105,9 @@
   {
     "id": "custom_1757001701081_5_usnopujcf",
     "product_name": "Cork Noticeboard (120 x 150cm) Wooden Frame - With Installation",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/MemoBulletinNoticeBoards3.jpg?alt=media&token=6411c075-1ed9-47a2-92a3-12b01469939f"
+    ],
     "category": "MemoBulletinNoticeBoards",
     "price": {
       "current_price": 369.15,

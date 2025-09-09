@@ -2,7 +2,9 @@
   {
     "id": "custom_1757001701079_0_7sbm7ua7j",
     "product_name": "Glass Board Cube Magnet (6 Pieces) Extra-Strong (1 x 1 x 1cm)",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/Magnets1.jpg?alt=media&token=47e3d280-9750-4743-bd82-ad0f8657c51e"
+    ],
     "category": "Magnets",
     "price": {
       "current_price": 18,
@@ -27,7 +29,10 @@
   {
     "id": "custom_1757001701079_1_qe5j60rap",
     "product_name": "Glass Board Round Magnet (6 Pieces) Strong (3 x 3cm)",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/Magnets21.jpg?alt=media&token=2eaafebe-8461-4c1c-b91d-b2d64eacfffa",
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/Magnets22.jpg?alt=media&token=873012d9-498f-4601-b46a-c3804cb60e0a"
+    ],
     "category": "Magnets",
     "price": {
       "current_price": 15.3,
@@ -49,7 +54,9 @@
   {
     "id": "custom_1757001701079_2_fx9zdgoiz",
     "product_name": "Magnetic Buttons (12 Buttons) 30mm",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/Magnets3.jpg?alt=media&token=41fd472d-fae5-47bb-8261-d9ec76e24af8"
+    ],
     "category": "Magnets",
     "price": {
       "current_price": 3.15,

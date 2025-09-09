@@ -2,7 +2,9 @@
   {
     "id": "custom_1757001701083_0_sgzl3cnr8",
     "product_name": "Magnetic Flip Chart Whiteboard (60 x 90cm) Castor Wheel - White Frame",
-    "img": "",
+    "img": [
+      "https://firebasestorage.googleapis.com/v0/b/youoffice-814d4.firebasestorage.app/o/MobileWhiteboards1.jpg?alt=media&token=d7e0df28-0ab3-4136-b242-3642d13c15ea"
+    ],
     "category": "MobileWhiteboards",
     "price": {
       "current_price": 152.1,
