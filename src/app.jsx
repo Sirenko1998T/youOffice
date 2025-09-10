@@ -15,6 +15,7 @@ import { CartProvider } from "./components/context/cartContext.jsx";
 import { AuthProvider } from "./components/context/authContext.jsx";
 import MyAccount from "./pages/myAccount.jsx";
 import Logout from "./pages/logout.jsx";
+import MyWishList from "./pages/myWishList.jsx";
 export default function App() {
 
    return (
@@ -26,6 +27,7 @@ export default function App() {
                   <Route path="/" element={<Layout />} >
                      <Route index element={<Home />} />
                      <Route path="register" element={<Register />} />
+                     <Route path="mywishlist" element={<MyWishList />} />
                      <Route path="logout" element={<Logout />} />
                      <Route path="myaccount" element={<MyAccount />} />
                      <Route path="cart" element={<CartPage />} />

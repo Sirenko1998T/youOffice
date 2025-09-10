@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, Outlet } from 'react-router-dom';
 import UserPanel from "../components/userPanel.jsx";
 import BurgerMenu from "../components/burgerMenu.jsx";
 import Search from "../components/search.jsx";
 import Cart from "../components/cart.jsx";
 import Saved from "../components/saved.jsx";
-
+import { AuthContext } from "../components/context/authContext.jsx";
 export default function Layout() {
+   let { addFavorite } = useContext(AuthContext);
    return (
       <div className="min-h-screen flex flex-col">
 
@@ -35,7 +36,7 @@ export default function Layout() {
 
                <div className="hidden md:flex items-center space-x-6 ml-auto">
                   <Search />
-                  <Saved />
+                  <Link to='/mywishlist'> <Saved /></Link>
                   <Link to='/cart'>
                      <Cart />
                   </Link>

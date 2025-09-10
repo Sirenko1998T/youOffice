@@ -3,14 +3,16 @@ import Button from '../components/button.jsx';
 import CountProduct from './countProduct.jsx';
 import { Link } from 'react-router-dom';
 import { CartContext } from './context/cartContext.jsx';
+import Saved from "./saved.jsx";
 
 export default function ProductCard({ product, details = false }) {
 
-   const { count, increase, reduce, addProduct } = useContext(CartContext);
+   const { count, increase, reduce, addProduct, addFavorite, favorite } = useContext(CartContext);
    const [showOptions, setShowOptions] = useState(true);
 
    return (
       <div className="border border-gray-200 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 max-w-xs bg-white">
+         <Saved onClick={() => addFavorite(product)} />
 
          <Link to={`/product/${product?.id}`}>
             {product?.img && (

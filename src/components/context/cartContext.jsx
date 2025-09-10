@@ -6,6 +6,19 @@ export function CartProvider({ children }) {
 
    const [count, setCount] = useState({});
    let [cart, setCart] = useState([]);
+   let [favorite, setFavorite] = useState([]);
+
+   let addFavorite = (product) => {
+      setFavorite((prev) => {
+         let exists = prev.find((item) => item.id === product.id);
+         if (exists) {
+            return prev.filter((item) => item.id !== product.id)
+         }
+         else {
+            return [...prev, product]
+         }
+      })
+   }
 
    let reduce = (id, option = 'default') => {
       setCount((prev) => ({
@@ -56,7 +69,7 @@ export function CartProvider({ children }) {
       )
          .filter((item) => item.quantity > 0));
    };
-   const countValue = { count, increase, reduce, addProduct, cart, updateCartQuantity };
+   const countValue = { count, increase, reduce, addProduct, cart, updateCartQuantity, favorite, addFavorite };
 
    return (
       <CartContext.Provider value={countValue}>

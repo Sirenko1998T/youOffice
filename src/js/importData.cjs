@@ -52,11 +52,10 @@ async function importAllData() {
          const categoryName = path.basename(file, '.json');
 
          console.log(`🚀 Импортируем ${productsData.length} товаров из "${file}" в коллекцию "products"...`);
-
          const batch = db.batch();
          for (const product of productsData) {
-            // Добавляем категорию прямо в документ
-            const docRef = db.collection('products').doc();
+            // Используем 'id' из JSON-файла как ID документа в Firestore
+            const docRef = db.collection('products').doc(product.id);
             batch.set(docRef, {
                ...product,
                category: categoryName
