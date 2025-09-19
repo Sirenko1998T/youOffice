@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-
+import Button from "../button";
 export const CartContext = createContext();
 
 export function CartProvider({ children }) {
@@ -7,6 +7,7 @@ export function CartProvider({ children }) {
    const [count, setCount] = useState({});
    let [cart, setCart] = useState([]);
    let [favorite, setFavorite] = useState([]);
+   const [favoriteStatus, setFavoriteStatus] = useState({});
 
    let addFavorite = (product) => {
       setFavorite((prev) => {
@@ -18,6 +19,10 @@ export function CartProvider({ children }) {
             return [...prev, product]
          }
       })
+      setFavoriteStatus((prev) => ({
+         ...prev,
+         [product.id]: true,
+      }))
    }
 
    let reduce = (id, option = 'default') => {
@@ -37,6 +42,7 @@ export function CartProvider({ children }) {
             [option]: (prev[id]?.[option] || 0) + 1,
          }
       }))
+
    }
 
    let addProduct = (product, option) => {
@@ -69,7 +75,7 @@ export function CartProvider({ children }) {
       )
          .filter((item) => item.quantity > 0));
    };
-   const countValue = { count, increase, reduce, addProduct, cart, updateCartQuantity, favorite, addFavorite };
+   const countValue = { count, increase, reduce, addProduct, cart, updateCartQuantity, favorite, addFavorite, favoriteStatus, setFavoriteStatus };
 
    return (
       <CartContext.Provider value={countValue}>

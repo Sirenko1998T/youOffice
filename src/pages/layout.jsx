@@ -6,8 +6,10 @@ import Search from "../components/search.jsx";
 import Cart from "../components/cart.jsx";
 import Saved from "../components/saved.jsx";
 import { AuthContext } from "../components/context/authContext.jsx";
+import { CartContext } from "../components/context/cartContext.jsx";
 export default function Layout() {
    let { addFavorite } = useContext(AuthContext);
+   let { cart } = useContext(CartContext)
    return (
       <div className="min-h-screen flex flex-col">
 
@@ -38,7 +40,7 @@ export default function Layout() {
                   <Search />
                   <Link to='/mywishlist'> <Saved /></Link>
                   <Link to='/cart'>
-                     <Cart />
+                     <Cart cartCount={cart.length} />
                   </Link>
 
 

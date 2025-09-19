@@ -1,6 +1,6 @@
 
 import React from "react";
-export default function CountProduct({ reduce, increase, name, count }) {
+export default function CountProduct({ reduce, increase, name, count = 1 }) {
    return (
       <div className="flex items-center gap-3 mt-2">
          <p className="text-sm font-medium text-gray-700">{name}</p>

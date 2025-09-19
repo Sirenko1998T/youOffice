@@ -39,6 +39,7 @@ const ProductPage = () => {
 
    return (
       <div>
+
          <ProductCartDetail product={product} />
       </div>
    );

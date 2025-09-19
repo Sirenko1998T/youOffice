@@ -5,7 +5,7 @@ import ProductCard from "./productCard.jsx";
 export default function ProductCartDetail({ product }) {
    return (
       <div className="max-w-2xl mx-auto">
-         <ProductCard details={true} product={product} />
+         <ProductCard details={true} product={product} canToggle={false} />
       </div>
    );
 }

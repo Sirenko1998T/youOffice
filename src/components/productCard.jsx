@@ -1,19 +1,25 @@
 import React, { useContext, useState } from "react";
-import Button from '../components/button.jsx';
-import CountProduct from './countProduct.jsx';
-import { Link } from 'react-router-dom';
-import { CartContext } from './context/cartContext.jsx';
+import Button from "../components/button.jsx";
+import CountProduct from "./countProduct.jsx";
+import { Link } from "react-router-dom";
+import { CartContext } from "./context/cartContext.jsx";
 import Saved from "./saved.jsx";
+import { AuthContext } from "../components/context/authContext";
 
-export default function ProductCard({ product, details = false }) {
 
-   const { count, increase, reduce, addProduct, addFavorite, favorite } = useContext(CartContext);
+
+export default function ProductCard({ product, details = false, canToggle = true }) {
+   const { count, increase, reduce, addProduct, addFavorite, favoriteStatus, setFavoriteStatus } = useContext(CartContext);
    const [showOptions, setShowOptions] = useState(true);
-
+   const [showCounter, setShowCounter] = useState(false);
+   const { user } = useContext(AuthContext);
    return (
       <div className="border border-gray-200 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 max-w-xs bg-white">
          <Saved onClick={() => addFavorite(product)} />
+         {favoriteStatus[product.id] && (<div><h4>Item added</h4>
+            {user ? (<p>Success: You have added {product.product_name} to your wish list!</p>) : (<p>You must login or create an account to save {product.product_name} to your wish list!</p>)}
 
+            <Button label='ok' onClick={() => setFavoriteStatus((prev) => ({ ...prev, [product.id]: false }))} /></div>)}
          <Link to={`/product/${product?.id}`}>
             {product?.img && (
                <img
@@ -48,7 +54,9 @@ export default function ProductCard({ product, details = false }) {
 
          {product?.bulk_pricing && (
             <div className="mb-3 p-3 bg-gray-50 rounded-lg text-sm">
-               <p className="font-medium">Bulk Quantity: {product.bulk_pricing.quantity || "-"}</p>
+               <p className="font-medium">
+                  Bulk Quantity: {product.bulk_pricing.quantity || "-"}
+               </p>
                <p>
                   Bulk Price: {product.bulk_pricing.bulk_price || "-"}{" "}
                   {product.bulk_pricing.savings && (
@@ -76,7 +84,10 @@ export default function ProductCard({ product, details = false }) {
                <div className="mt-3">
                   {product?.available_options ? (
                      <>
-                        <div onClick={() => setShowOptions(!showOptions)} className="font-semibold">
+                        <div
+                           onClick={() => setShowOptions(!showOptions)}
+                           className="font-semibold cursor-pointer"
+                        >
                            Available Options
                         </div>
                         {showOptions && (
@@ -84,12 +95,15 @@ export default function ProductCard({ product, details = false }) {
                               {product.available_options.map((option, i) => (
                                  <li key={i} className="ml-4 py-2">
                                     <div className="flex items-center justify-between gap-4">
-                                       <span className="text-sm font-medium text-gray-700">{option.type}</span>
+                                       <span className="text-sm font-medium text-gray-700">
+                                          {option.type}
+                                       </span>
                                        <CountProduct
                                           reduce={() => reduce(product.id, option.type)}
                                           count={count[product.id]?.[option.type] || 0}
                                           increase={() => increase(product.id, option.type)}
-                                          name="QTY" />
+                                          name="QTY"
+                                       />
                                     </div>
                                  </li>
                               ))}
@@ -99,36 +113,58 @@ export default function ProductCard({ product, details = false }) {
                   ) : (
                      <div className="mt-2">
                         <CountProduct
-                           reduce={() => reduce(product.id, 'default')}
-                           count={count[product.id]?.['default'] || 0}
-
-
-                           increase={() => increase(product.id, 'default')}
+                           reduce={() => reduce(product.id, "default")}
+                           count={count[product.id]?.["default"] || 0}
+                           increase={() => increase(product.id, "default")}
                            name="QTY"
                         />
-
                      </div>
-                  )
-                  }
+                  )}
                </div>
-
             </div>
-
          )}
 
-         <Button
-            label="Add to Cart"
-            onClick={() => {
-               if (product?.available_options) {
-                  product.available_options.forEach((option) => {
-                     addProduct(product, option.type);
-                  });
-               } else {
-                  addProduct(product, "default");
-               }
-            }}
-         />
-
+         {canToggle ? (
+            showCounter ? (
+               <CountProduct
+                  reduce={() => reduce(product.id, "default")}
+                  count={count[product.id]?.["default"] || 0}
+                  increase={() => {
+                     increase(product.id, "default");
+                     addProduct(product, "default");
+                  }
+                  }
+                  name="QTY"
+               />
+            ) : (
+               <Button
+                  label="Add to Cart"
+                  onClick={() => {
+                     setShowCounter(true);
+                     if (product?.available_options) {
+                        product.available_options.forEach((option) => {
+                           addProduct(product, option.type);
+                        });
+                     } else {
+                        addProduct(product, "default");
+                     }
+                  }}
+               />
+            )
+         ) : (
+            <Button
+               label="Add to Cart"
+               onClick={() => {
+                  if (product?.available_options) {
+                     product.available_options.forEach((option) => {
+                        addProduct(product, option.type);
+                     });
+                  } else {
+                     addProduct(product, "default");
+                  }
+               }}
+            />
+         )}
       </div>
    );
 }
