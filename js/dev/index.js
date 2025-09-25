@@ -38245,7 +38245,6 @@ function UserPanel() {
     ] }) })
   ] });
 }
-const category = /* @__PURE__ */ JSON.parse('[{"category":"Basic Stationery","sub_categories":["Batteries",{"category":"Boards & Accessories","sub_categories":["Magnets","Whiteboards","MobileWhiteboards","Whiteboard Accessories","Plain Glass Boards","Design Glass Boards","Memo & Bulletin / Notice Boards","Easel Pads & Flip Chart Boards"]},"Clips, Pins & Tacks",{"category":"Desk Accessories","sub_categories":["Card Stands","Desk Organizers","Brochure Holders","Desk Table LED Lamp"]},{"category":"Envelopes","sub_categories":["Plain Envelopes","String Envelopes","Window Envelopes","Bubble Padded Envelopes"]},{"category":"Fasteners","sub_categories":["Card / Book Rings","Cotton Tapes","Paper Fasteners"]},{"category":"Glue & Adhesives","sub_categories":["Liquid & Super Glue","Blu-Tacks & Glue Sticks"]},{"category":"Laser / Inkjet Labels","sub_categories":["White Labels","Coloured Labels","Fabric Labels & Tent Cards","Clear Labels & Notarial Seals"]}]},{"category":"Basic Stationery II","sub_categories":["Mesh Products","Packing Products",{"category":"Post-it Notes, Flags & Tabs","sub_categories":["Flags & Tabs","Page Markers","Canary Yellow Notes","Premium Coloured Notes","Pop-Up Notes & Dispensers"]},"PU Leather Products",{"category":"Scissors, Rulers & Trimmers","sub_categories":["Cutters, Blades & Mats","Letter Openers","Paper Cutters","Rulers & Measuring Tapes","Scissors"]},{"category":"Stamps, Stamp Pads & Inks","sub_categories":["Date Stamps","Pre-Inked Stamps","Numbering Machines","Stamp Pads, Inks & Racks","DIY Self-Inking Printing Kit","Customized / Custom-Made Stamps"]},{"category":"Staplers & Paper Punches","sub_categories":["Desktop Staplers","Paper Punchers","Staple Removers","Staples / Bullets","Heavy Duty Staplers","Heavy Duty Paper Punchers"]},{"category":"Tapes & Dispensers","sub_categories":["OPP Tape","Cloth Tape","Magic Tape","Masking Tape","Mounting Tape","Double-Sided Tape","Transparent & Cellulose Tapes","Dispensers"]},"Waste Bin"]},{"category":"Paper Products","sub_categories":["Copier Paper","Special Paper",{"category":"Notebooks & Pads","sub_categories":["Notebooks","Voucher Pads","Hardcover Books","Miscellaneous Pads","Writing Pads & Exercise Books"]},"Computer Form Paper","Professional Notebooks","Woodfree, Thermal & Fax Paper"]},{"category":"Printer Toner & Ink Cartridges","sub_categories":["HP Printer Toner & Ink Cartridges","Canon Printer Toner & Ink Cartridges","Brother Printer Toner & Ink Cartridges","Epson Printer Toner & Ink Cartridges","Samsung Printer Toner & Ink Cartridges","Fuji Xerox Printer Toner & Ink Cartridges"]},{"category":"Writing & Correction","sub_categories":[{"category":"Pens","sub_categories":["Refills","Gift Pens","Ballpoint Pens","Uni Jetstream Pens","Liquid & Gel Ink Pens","Erasable & Fibre-Tip Pens"]},"Pencils",{"category":"Markers","sub_categories":["Permanent Markers","Whiteboard Markers","Chalk & Paint Markers"]},"Fineliners","Sharpeners","Highlighters","Colour Pencils",{"category":"Correction Supplies","sub_categories":["Erasers & Dusters","Correction Pens / Tapes"]}]},{"category":"Filing & Storage","sub_categories":["Clipboards",{"category":"Storage","sub_categories":["Cash Boxes","File Cabinets","Key Box / Tags","Document Trays","Magazine Holders","Book & File Racks","Newspaper, Magazine & Umbrella Racks"]},{"category":"Dividers","sub_categories":["Index Dividers","Colour Dividers","White Paper Dividers"]},{"category":"PP / PVC Files","sub_categories":["Clear Files","Clear Folders","Coloured Folders","Management Files"]},"Paper Files","Index & Tabs","Ring & Arch Files","Files & Card Cases","Card Holders & Files","Laminated Ring Files","Reinforcement Rings","Sheet Protector / Copy Safe & Pockets"]},{"category":"Office Equipment & Accessories","sub_categories":[{"category":"Laserjet & Inkjet Printers","sub_categories":["HP","OKI","Epson","Canon","Brother Printers"]},"Scanners",{"category":"Calculators","sub_categories":["Printing Calculators","Desktop Calculators","Scientific & Financial Calculators"]},{"category":"Projectors","sub_categories":["Epson","ViewSonic"]},"Air Purifiers",{"category":"Paper Shredder Machines","sub_categories":["GBC","HSM","Aurora","Fellowes","Heavy Duty"]},{"category":"Laminators & Pouches","sub_categories":["Pouches","Laminating Machine"]},"Desk / Table LED Lamp",{"category":"Label Printers & Tapes","sub_categories":["Label Tapes","Label Printers"]},"Checkwriter & Accessories",{"category":"Binding Machines & Accessories","sub_categories":["GBC","Fellowes","Binding Rings","Binding Covers"]},"Coin, Notes, Currency, Money Counters","Time Recorders & Time Attendance Systems"]},{"category":"IT & Travel Accessories","sub_categories":[{"category":"Laptops","sub_categories":["HP Notebook Computer","Dell Notebook Computer","ASUS Notebook Computer","Lenovo Notebook Computer"]},"Monitors","Privacy Filters","CD / DVD Media","Mice & Keyboards",{"category":"Ergonomic Products","sub_categories":["Backpacks","Backrest Cushions","Chair Mats & Footrests","Mouse Pads & Wristrests","Ergonomic Desk Accessories"]},"Headsets & Speakers",{"category":"Computer Accessories","sub_categories":["Laptop Bags","Docking Stations","Laptop Security Locks","USB Hubs, Chargers & Adapters"]},"Cables, Adaptors & Sockets","Laser Pointers & Presenters","Webcams and Conference Cams",{"category":"Home / Office Network Switches","sub_categories":["Camera"]},"Flash / Hard Drives & Memory Cards"]},{"category":"Pantry","sub_categories":["Coffee","Tea",{"category":"Drinks","sub_categories":["Milo & Nestum","Packet & Can Drinks","Bottled / Mineral Water & Milk"]},{"category":"Food Shelf","sub_categories":["Instant Food"]},{"category":"Other Beverages","sub_categories":["Chocolate & Malted","Cereals"]},"Disposable Wares","First Aid Supplies",{"category":"Sweeteners & Dairy","sub_categories":["Sugar","Creamer","Milk"]},"Toilet Rolls & Facial Tissues","Biscuits, Cookies & Crackers","Cleaning Tools & Equipment","Household & Cleaning Agents","Water Dispensers"]},{"category":"Hardware & Maintenance","sub_categories":["Step Ladders","Office Design Products","Bathroom & Kitchen Accessories","Command Hooks & Adhesive Strips","Photo & Certificate Frames / Holders"]},{"category":"Arts & Craft","sub_categories":[]},{"category":"Gifts & Novelties","sub_categories":[]}]');
 const cartIcon = "" + new URL("../assets/img/cart.png", import.meta.url).href;
 function Cart({ cartCount = 0 }) {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("button", { className: "p-2 relative hover:bg-gray-100 rounded-full transition-colors duration-200", children: [
@@ -38534,10 +38533,11 @@ function Footer() {
     ] }) }) })
   ] });
 }
-function cleanKey(str) {
+const category = /* @__PURE__ */ JSON.parse('[{"category":"Basic Stationery","sub_categories":["Batteries",{"category":"Boards & Accessories","sub_categories":["Magnets","Whiteboards","MobileWhiteboards","Whiteboard Accessories","Plain Glass Boards","Design Glass Boards","Memo & Bulletin / Notice Boards","Easel Pads & Flip Chart Boards"]},"Clips, Pins & Tacks",{"category":"Desk Accessories","sub_categories":["Card Stands","Desk Organizers","Brochure Holders","Desk Table LED Lamp"]},{"category":"Envelopes","sub_categories":["Plain Envelopes","String Envelopes","Window Envelopes","Bubble Padded Envelopes"]},{"category":"Fasteners","sub_categories":["Card / Book Rings","Cotton Tapes","Paper Fasteners"]},{"category":"Glue & Adhesives","sub_categories":["Liquid & Super Glue","Blu-Tacks & Glue Sticks"]},{"category":"Laser / Inkjet Labels","sub_categories":["White Labels","Coloured Labels","Fabric Labels & Tent Cards","Clear Labels & Notarial Seals"]}]},{"category":"Basic Stationery II","sub_categories":["Mesh Products","Packing Products",{"category":"Post-it Notes, Flags & Tabs","sub_categories":["Flags & Tabs","Page Markers","Canary Yellow Notes","Premium Coloured Notes","Pop-Up Notes & Dispensers"]},"PU Leather Products",{"category":"Scissors, Rulers & Trimmers","sub_categories":["Cutters, Blades & Mats","Letter Openers","Paper Cutters","Rulers & Measuring Tapes","Scissors"]},{"category":"Stamps, Stamp Pads & Inks","sub_categories":["Date Stamps","Pre-Inked Stamps","Numbering Machines","Stamp Pads, Inks & Racks","DIY Self-Inking Printing Kit","Customized / Custom-Made Stamps"]},{"category":"Staplers & Paper Punches","sub_categories":["Desktop Staplers","Paper Punchers","Staple Removers","Staples / Bullets","Heavy Duty Staplers","Heavy Duty Paper Punchers"]},{"category":"Tapes & Dispensers","sub_categories":["OPP Tape","Cloth Tape","Magic Tape","Masking Tape","Mounting Tape","Double-Sided Tape","Transparent & Cellulose Tapes","Dispensers"]},"Waste Bin"]},{"category":"Paper Products","sub_categories":["Copier Paper","Special Paper",{"category":"Notebooks & Pads","sub_categories":["Notebooks","Voucher Pads","Hardcover Books","Miscellaneous Pads","Writing Pads & Exercise Books"]},"Computer Form Paper","Professional Notebooks","Woodfree, Thermal & Fax Paper"]},{"category":"Printer Toner & Ink Cartridges","sub_categories":["HP Printer Toner & Ink Cartridges","Canon Printer Toner & Ink Cartridges","Brother Printer Toner & Ink Cartridges","Epson Printer Toner & Ink Cartridges","Samsung Printer Toner & Ink Cartridges","Fuji Xerox Printer Toner & Ink Cartridges"]},{"category":"Writing & Correction","sub_categories":[{"category":"Pens","sub_categories":["Refills","Gift Pens","Ballpoint Pens","Uni Jetstream Pens","Liquid & Gel Ink Pens","Erasable & Fibre-Tip Pens"]},"Pencils",{"category":"Markers","sub_categories":["Permanent Markers","Whiteboard Markers","Chalk & Paint Markers"]},"Fineliners","Sharpeners","Highlighters","Colour Pencils",{"category":"Correction Supplies","sub_categories":["Erasers & Dusters","Correction Pens / Tapes"]}]},{"category":"Filing & Storage","sub_categories":["Clipboards",{"category":"Storage","sub_categories":["Cash Boxes","File Cabinets","Key Box / Tags","Document Trays","Magazine Holders","Book & File Racks","Newspaper, Magazine & Umbrella Racks"]},{"category":"Dividers","sub_categories":["Index Dividers","Colour Dividers","White Paper Dividers"]},{"category":"PP / PVC Files","sub_categories":["Clear Files","Clear Folders","Coloured Folders","Management Files"]},"Paper Files","Index & Tabs","Ring & Arch Files","Files & Card Cases","Card Holders & Files","Laminated Ring Files","Reinforcement Rings","Sheet Protector / Copy Safe & Pockets"]},{"category":"Office Equipment & Accessories","sub_categories":[{"category":"Laserjet & Inkjet Printers","sub_categories":["HP","OKI","Epson","Canon","Brother Printers"]},"Scanners",{"category":"Calculators","sub_categories":["Printing Calculators","Desktop Calculators","Scientific & Financial Calculators"]},{"category":"Projectors","sub_categories":["Epson","ViewSonic"]},"Air Purifiers",{"category":"Paper Shredder Machines","sub_categories":["GBC","HSM","Aurora","Fellowes","Heavy Duty"]},{"category":"Laminators & Pouches","sub_categories":["Pouches","Laminating Machine"]},"Desk / Table LED Lamp",{"category":"Label Printers & Tapes","sub_categories":["Label Tapes","Label Printers"]},"Checkwriter & Accessories",{"category":"Binding Machines & Accessories","sub_categories":["GBC","Fellowes","Binding Rings","Binding Covers"]},"Coin, Notes, Currency, Money Counters","Time Recorders & Time Attendance Systems"]},{"category":"IT & Travel Accessories","sub_categories":[{"category":"Laptops","sub_categories":["HP Notebook Computer","Dell Notebook Computer","ASUS Notebook Computer","Lenovo Notebook Computer"]},"Monitors","Privacy Filters","CD / DVD Media","Mice & Keyboards",{"category":"Ergonomic Products","sub_categories":["Backpacks","Backrest Cushions","Chair Mats & Footrests","Mouse Pads & Wristrests","Ergonomic Desk Accessories"]},"Headsets & Speakers",{"category":"Computer Accessories","sub_categories":["Laptop Bags","Docking Stations","Laptop Security Locks","USB Hubs, Chargers & Adapters"]},"Cables, Adaptors & Sockets","Laser Pointers & Presenters","Webcams and Conference Cams",{"category":"Home / Office Network Switches","sub_categories":["Camera"]},"Flash / Hard Drives & Memory Cards"]},{"category":"Pantry","sub_categories":["Coffee","Tea",{"category":"Drinks","sub_categories":["Milo & Nestum","Packet & Can Drinks","Bottled / Mineral Water & Milk"]},{"category":"Food Shelf","sub_categories":["Instant Food"]},{"category":"Other Beverages","sub_categories":["Chocolate & Malted","Cereals"]},"Disposable Wares","First Aid Supplies",{"category":"Sweeteners & Dairy","sub_categories":["Sugar","Creamer","Milk"]},"Toilet Rolls & Facial Tissues","Biscuits, Cookies & Crackers","Cleaning Tools & Equipment","Household & Cleaning Agents","Water Dispensers"]},{"category":"Hardware & Maintenance","sub_categories":["Step Ladders","Office Design Products","Bathroom & Kitchen Accessories","Command Hooks & Adhesive Strips","Photo & Certificate Frames / Holders"]},{"category":"Arts & Craft","sub_categories":[]},{"category":"Gifts & Novelties","sub_categories":[]}]');
+function cleanKey$1(str) {
   return str.replace(/[^a-zA-Z0-9]/g, "");
 }
-const depthPadding = [
+const depthPadding$1 = [
   "pl-0",
   "pl-3",
   "pl-6",
@@ -38546,7 +38546,7 @@ const depthPadding = [
   "pl-16"
 ];
 const CategoryLink = ({ name: name2, urlKey, depth = 0 }) => {
-  const paddingClass = depthPadding[Math.min(depth, depthPadding.length - 1)];
+  const paddingClass = depthPadding$1[Math.min(depth, depthPadding$1.length - 1)];
   return /* @__PURE__ */ jsxRuntimeExports.jsx(
     Link,
     {
@@ -38557,11 +38557,11 @@ const CategoryLink = ({ name: name2, urlKey, depth = 0 }) => {
   );
 };
 const CategoryAccordion = ({ item, isWrapped, toggleWrap, depth = 0, renderCategories }) => {
-  const key = cleanKey(item.category);
-  const paddingClass = depthPadding[Math.min(depth, depthPadding.length - 1)];
+  const key = cleanKey$1(item.category);
+  const paddingClass = depthPadding$1[Math.min(depth, depthPadding$1.length - 1)];
   const hasSubCategories = item.sub_categories && item.sub_categories.length > 0;
   if (!hasSubCategories) {
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(CategoryLink, { name: item.category, urlKey: cleanKey(item.category), depth });
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(CategoryLink, { name: item.category, urlKey: cleanKey$1(item.category), depth });
   }
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "border-b border-gray-100 last:border-b-0", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs(
@@ -38595,7 +38595,7 @@ function Categories() {
   const renderCategories = (items, depth = 0) => {
     return items.map((item, index) => {
       if (typeof item === "object") {
-        const key = cleanKey(item.category);
+        const key = cleanKey$1(item.category);
         return /* @__PURE__ */ jsxRuntimeExports.jsx(
           CategoryAccordion,
           {
@@ -38608,7 +38608,7 @@ function Categories() {
           key
         );
       }
-      const link = cleanKey(item);
+      const link = cleanKey$1(item);
       return /* @__PURE__ */ jsxRuntimeExports.jsx(
         CategoryLink,
         {
@@ -38626,79 +38626,151 @@ function Categories() {
   ] });
 }
 const Logo = "" + new URL("../assets/img/logo/HOME-N-OFFICE-LOGO-min (1).png", import.meta.url).href;
+function cleanKey(str) {
+  return str.replace(/[^a-zA-Z0-9]/g, "");
+}
+const depthPadding = [
+  "pl-0",
+  "pl-3",
+  "pl-6",
+  "pl-9",
+  "pl-12",
+  "pl-16"
+];
+const CategoryItem = ({ item, isWrapped, toggleWrap, depth = 0, renderCategories, closeMenu }) => {
+  const key = cleanKey(item.category);
+  const paddingClass = depthPadding[Math.min(depth, depthPadding.length - 1)];
+  const hasSubCategories = item.sub_categories && item.sub_categories.length > 0;
+  if (!hasSubCategories) {
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(
+      Link,
+      {
+        to: `/category/${key}`,
+        onClick: closeMenu,
+        className: `block text-sm text-gray-700 transition-colors py-2 border-l border-gray-200 ${paddingClass} hover:bg-blue-50 hover:text-blue-600`,
+        children: item.category
+      }
+    );
+  }
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "border-b border-gray-100 last:border-b-0", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      "h3",
+      {
+        onClick: () => toggleWrap(key),
+        className: `flex items-center py-2 px-3 cursor-pointer transition-all duration-200 text-sm ${isWrapped ? "bg-blue-50 text-blue-700" : "hover:bg-gray-100 text-gray-800"} ${paddingClass}`,
+        children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "truncate flex-1", children: item.category }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: `transition-transform duration-300 transform w-4 h-4 text-gray-500 flex-shrink-0 ml-2 ${isWrapped ? "rotate-180 text-blue-700" : ""}`, children: /* @__PURE__ */ jsxRuntimeExports.jsx("svg", { fill: "none", viewBox: "0 0 24 24", stroke: "currentColor", children: /* @__PURE__ */ jsxRuntimeExports.jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "2", d: "M19 9l-7 7-7-7" }) }) })
+        ]
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `overflow-hidden transition-all duration-500 ease-in-out ${isWrapped ? "max-h-screen opacity-100" : "max-h-0 opacity-0"}`, children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pt-1 pb-2", children: renderCategories(item.sub_categories, depth + 1) }) })
+  ] });
+};
+function BurgerMenu() {
+  const [isOpen, setIsOpen] = reactExports.useState(false);
+  const [wrap2, setWrap] = reactExports.useState({});
+  const toggleWrap = (name2) => {
+    setWrap((prev) => ({
+      ...prev,
+      [name2]: !prev[name2]
+    }));
+  };
+  const closeMenu = () => setIsOpen(false);
+  const renderCategories = (items, depth = 0) => {
+    return items.map((item) => {
+      if (typeof item === "object") {
+        const key = cleanKey(item.category);
+        return /* @__PURE__ */ jsxRuntimeExports.jsx(
+          CategoryItem,
+          {
+            item,
+            isWrapped: wrap2[key],
+            toggleWrap,
+            depth,
+            renderCategories,
+            closeMenu
+          },
+          key
+        );
+      }
+      const link = cleanKey(item);
+      return /* @__PURE__ */ jsxRuntimeExports.jsx(
+        Link,
+        {
+          to: `/category/${link}`,
+          onClick: closeMenu,
+          className: `block text-sm text-gray-700 transition-colors py-2 border-l border-gray-200 ${depthPadding[Math.min(depth, depthPadding.length - 1)]} hover:bg-blue-50 hover:text-blue-600`,
+          children: item
+        },
+        link
+      );
+    });
+  };
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:hidden w-full mb-4", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      "button",
+      {
+        onClick: () => setIsOpen(!isOpen),
+        className: "w-full bg-[#00579A] text-white py-3 px-4 rounded-lg flex items-center justify-between",
+        children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium", children: "Shop By Categories" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "svg",
+            {
+              className: `w-5 h-5 transform transition-transform ${isOpen ? "rotate-180" : ""}`,
+              fill: "none",
+              stroke: "currentColor",
+              viewBox: "0 0 24 24",
+              children: /* @__PURE__ */ jsxRuntimeExports.jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M19 9l-7 7-7-7" })
+            }
+          )
+        ]
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "div",
+      {
+        className: `mt-2 bg-white border border-gray-200 rounded-xl shadow-lg overflow-hidden transition-all duration-300
+                        ${isOpen ? "max-h-screen opacity-100 p-4" : "max-h-0 opacity-0 p-0"}`,
+        children: renderCategories(category)
+      }
+    )
+  ] });
+}
 function Layout() {
-  let { addFavorite } = reactExports.useContext(AuthContext);
-  let { cart } = reactExports.useContext(CartContext);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = reactExports.useState(false);
+  const { cart } = reactExports.useContext(CartContext);
+  const [isCategoriesOpen, setIsCategoriesOpen] = reactExports.useState(false);
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-h-screen flex flex-col bg-gray-50", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("header", { className: "bg-white shadow-lg sticky top-0 z-50", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("nav", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(UserPanel, {}) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-3 sm:px-4 py-3", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-shrink-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", className: "flex items-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "img",
-            {
-              src: Logo,
-              alt: "HomenOffice Logo",
-              className: "h-10 sm:h-12 object-contain"
-            }
-          ) }) }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center space-x-3 sm:space-x-4 md:hidden", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/mywishlist", className: "p-2", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Saved, {}) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/cart", className: "p-2 relative", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Cart, { cartCount: cart.length }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "button",
-              {
-                onClick: () => setIsMobileMenuOpen(!isMobileMenuOpen),
-                className: "p-2 text-gray-600 hover:text-[#00579A] transition-colors",
-                "aria-label": "Toggle menu",
-                children: /* @__PURE__ */ jsxRuntimeExports.jsx("svg", { className: "w-6 h-6", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "path",
-                  {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    strokeWidth: 2,
-                    d: isMobileMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
-                  }
-                ) })
-              }
-            )
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "hidden md:flex items-center space-x-4 lg:space-x-6 ml-auto", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/mywishlist", className: "p-2 hover:bg-gray-100 rounded-full transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Saved, {}) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/cart", className: "p-2 hover:bg-gray-100 rounded-full transition-colors relative", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Cart, { cartCount: cart.length }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollToTopButton, {})
-          ] })
-        ] }),
-        isMobileMenuOpen && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:hidden mt-4 border-t border-gray-200 pt-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Categories, {}) })
-      ] })
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-3 sm:px-4 py-3", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between flex-wrap", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-shrink-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", className: "flex items-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "img",
+          {
+            src: Logo,
+            alt: "HomenOffice Logo",
+            className: "h-10 sm:h-12 object-contain"
+          }
+        ) }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center space-x-2 sm:space-x-4 mt-2 sm:mt-0", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/mywishlist", className: "p-2 hover:bg-gray-100 rounded-full transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Saved, {}) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/cart", className: "p-2 hover:bg-gray-100 rounded-full transition-colors relative", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Cart, { cartCount: cart.length }) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollToTopButton, {})
+        ] })
+      ] }) })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("main", { className: "flex-grow container mx-auto px-3 sm:px-4 py-4 sm:py-6", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col lg:flex-row gap-4 sm:gap-6", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("aside", { className: "lg:w-64 shrink-0 hidden lg:block", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "sticky top-24", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Categories, {}) }) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "lg:hidden w-full", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
-        "button",
-        {
-          onClick: () => setIsMobileMenuOpen(!isMobileMenuOpen),
-          className: "w-full bg-[#00579A] text-white py-3 px-4 rounded-lg flex items-center justify-between mb-4",
-          children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium", children: "Browse Categories" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "svg",
-              {
-                className: `w-5 h-5 transform transition-transform ${isMobileMenuOpen ? "rotate-180" : ""}`,
-                fill: "none",
-                stroke: "currentColor",
-                viewBox: "0 0 24 24",
-                children: /* @__PURE__ */ jsxRuntimeExports.jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M19 9l-7 7-7-7" })
-              }
-            )
-          ]
-        }
-      ) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("aside", { className: "lg:w-64 shrink-0 w-full mb-4 lg:mb-0 hidden lg:block", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Categories, {}) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:hidden mb-4 w-full", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(BurgerMenu, {}),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `mt-2 bg-white border border-gray-200 rounded-xl shadow-lg overflow-hidden transition-all duration-300
+                      ${isCategoriesOpen ? "max-h-screen opacity-100 p-4" : "max-h-0 opacity-0 p-0"}`, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Categories, {}) })
+      ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-1 min-w-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {}) })
     ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "mt-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Footer, {}) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "fixed bottom-4 right-4 md:hidden z-40", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollToTopButton, {}) })
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "fixed bottom-4 right-4 z-40", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollToTopButton, {}) })
   ] });
 }
 const faqData = [
@@ -40143,6 +40215,8 @@ const CategoryPage = () => {
 };
 function CartPage() {
   const { cart, updateCartQuantity, clearCart } = reactExports.useContext(CartContext);
+  const { user } = reactExports.useContext(AuthContext);
+  const navigate = useNavigate();
   const [isCheckoutSuccessful, setIsCheckoutSuccessful] = reactExports.useState(false);
   const { subtotal, gst, total, cartCount } = reactExports.useMemo(() => {
     const sub = cart.reduce((sum, item) => sum + item.quantity * item.price.current_price, 0);
@@ -40157,7 +40231,12 @@ function CartPage() {
     };
   }, [cart]);
   const handleCheckout = () => {
-    console.log("Processing order for total:", total);
+    if (!user) {
+      console.log("User not authenticated. Redirecting to login.");
+      navigate("/login", { state: { from: "/cart" } });
+      return;
+    }
+    console.log("Processing order for total:", total, "for user:", user.email);
     setTimeout(() => {
       if (clearCart) {
         clearCart();
@@ -40289,7 +40368,7 @@ function CartPage() {
           {
             onClick: handleCheckout,
             className: "w-full bg-[#00579A] text-white font-medium py-2.5 rounded-lg hover:bg-[#00457A] transition",
-            label: "Proceed to Checkout"
+            label: user ? "Proceed to Checkout" : "Login to Checkout"
           }
         ),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
