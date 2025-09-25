@@ -38137,227 +38137,123 @@ function AuthProvider({ children }) {
 function UserPanel() {
   const { user, logout } = reactExports.useContext(AuthContext);
   const navigate = useNavigate();
+  const [isMenuOpen, setIsMenuOpen] = reactExports.useState(false);
   const logoutFunction = async () => {
     try {
       await logout();
       navigate("/login");
+      setIsMenuOpen(false);
     } catch (error) {
       console.error("Logout failed:", error);
     }
   };
-  const linkClasses = "text-white text-sm font-medium tracking-wide no-underline transition-colors duration-200 py-1 px-3 rounded-md hover:bg-white hover:text-[#00579A]";
-  const containerClasses = "flex justify-end items-center space-x-2 sm:space-x-4";
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full py-2 sm:py-2.5 px-4 shadow-md", style: { backgroundColor: "#00579A" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: containerClasses, children: [
-    user ? /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "hidden sm:inline text-white text-sm font-light mr-2 truncate max-w-[150px]", children: [
-        "Hello, ",
-        user.email || "User"
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/myaccount", className: linkClasses, children: "My Account" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(
-        "button",
-        {
-          onClick: logoutFunction,
-          className: `${linkClasses} !bg-transparent hover:!bg-white/20 border border-transparent hover:border-white`,
-          children: "Logout"
-        }
-      )
-    ] }) : /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/register", className: linkClasses, children: "Register" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/login", className: linkClasses, children: "Login" })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/contactUs", className: `${linkClasses} hidden sm:inline-block`, children: "Contact Us" })
-  ] }) });
-}
-const category = /* @__PURE__ */ JSON.parse('[{"category":"Basic Stationery","sub_categories":["Batteries",{"category":"Boards & Accessories","sub_categories":["Magnets","Whiteboards","MobileWhiteboards","Whiteboard Accessories","Plain Glass Boards","Design Glass Boards","Memo & Bulletin / Notice Boards","Easel Pads & Flip Chart Boards"]},"Clips, Pins & Tacks",{"category":"Desk Accessories","sub_categories":["Card Stands","Desk Organizers","Brochure Holders","Desk Table LED Lamp"]},{"category":"Envelopes","sub_categories":["Plain Envelopes","String Envelopes","Window Envelopes","Bubble Padded Envelopes"]},{"category":"Fasteners","sub_categories":["Card / Book Rings","Cotton Tapes","Paper Fasteners"]},{"category":"Glue & Adhesives","sub_categories":["Liquid & Super Glue","Blu-Tacks & Glue Sticks"]},{"category":"Laser / Inkjet Labels","sub_categories":["White Labels","Coloured Labels","Fabric Labels & Tent Cards","Clear Labels & Notarial Seals"]}]},{"category":"Basic Stationery II","sub_categories":["Mesh Products","Packing Products",{"category":"Post-it Notes, Flags & Tabs","sub_categories":["Flags & Tabs","Page Markers","Canary Yellow Notes","Premium Coloured Notes","Pop-Up Notes & Dispensers"]},"PU Leather Products",{"category":"Scissors, Rulers & Trimmers","sub_categories":["Cutters, Blades & Mats","Letter Openers","Paper Cutters","Rulers & Measuring Tapes","Scissors"]},{"category":"Stamps, Stamp Pads & Inks","sub_categories":["Date Stamps","Pre-Inked Stamps","Numbering Machines","Stamp Pads, Inks & Racks","DIY Self-Inking Printing Kit","Customized / Custom-Made Stamps"]},{"category":"Staplers & Paper Punches","sub_categories":["Desktop Staplers","Paper Punchers","Staple Removers","Staples / Bullets","Heavy Duty Staplers","Heavy Duty Paper Punchers"]},{"category":"Tapes & Dispensers","sub_categories":["OPP Tape","Cloth Tape","Magic Tape","Masking Tape","Mounting Tape","Double-Sided Tape","Transparent & Cellulose Tapes","Dispensers"]},"Waste Bin"]},{"category":"Paper Products","sub_categories":["Copier Paper","Special Paper",{"category":"Notebooks & Pads","sub_categories":["Notebooks","Voucher Pads","Hardcover Books","Miscellaneous Pads","Writing Pads & Exercise Books"]},"Computer Form Paper","Professional Notebooks","Woodfree, Thermal & Fax Paper"]},{"category":"Printer Toner & Ink Cartridges","sub_categories":["HP Printer Toner & Ink Cartridges","Canon Printer Toner & Ink Cartridges","Brother Printer Toner & Ink Cartridges","Epson Printer Toner & Ink Cartridges","Samsung Printer Toner & Ink Cartridges","Fuji Xerox Printer Toner & Ink Cartridges"]},{"category":"Writing & Correction","sub_categories":[{"category":"Pens","sub_categories":["Refills","Gift Pens","Ballpoint Pens","Uni Jetstream Pens","Liquid & Gel Ink Pens","Erasable & Fibre-Tip Pens"]},"Pencils",{"category":"Markers","sub_categories":["Permanent Markers","Whiteboard Markers","Chalk & Paint Markers"]},"Fineliners","Sharpeners","Highlighters","Colour Pencils",{"category":"Correction Supplies","sub_categories":["Erasers & Dusters","Correction Pens / Tapes"]}]},{"category":"Filing & Storage","sub_categories":["Clipboards",{"category":"Storage","sub_categories":["Cash Boxes","File Cabinets","Key Box / Tags","Document Trays","Magazine Holders","Book & File Racks","Newspaper, Magazine & Umbrella Racks"]},{"category":"Dividers","sub_categories":["Index Dividers","Colour Dividers","White Paper Dividers"]},{"category":"PP / PVC Files","sub_categories":["Clear Files","Clear Folders","Coloured Folders","Management Files"]},"Paper Files","Index & Tabs","Ring & Arch Files","Files & Card Cases","Card Holders & Files","Laminated Ring Files","Reinforcement Rings","Sheet Protector / Copy Safe & Pockets"]},{"category":"Office Equipment & Accessories","sub_categories":[{"category":"Laserjet & Inkjet Printers","sub_categories":["HP","OKI","Epson","Canon","Brother Printers"]},"Scanners",{"category":"Calculators","sub_categories":["Printing Calculators","Desktop Calculators","Scientific & Financial Calculators"]},{"category":"Projectors","sub_categories":["Epson","ViewSonic"]},"Air Purifiers",{"category":"Paper Shredder Machines","sub_categories":["GBC","HSM","Aurora","Fellowes","Heavy Duty"]},{"category":"Laminators & Pouches","sub_categories":["Pouches","Laminating Machine"]},"Desk / Table LED Lamp",{"category":"Label Printers & Tapes","sub_categories":["Label Tapes","Label Printers"]},"Checkwriter & Accessories",{"category":"Binding Machines & Accessories","sub_categories":["GBC","Fellowes","Binding Rings","Binding Covers"]},"Coin, Notes, Currency, Money Counters","Time Recorders & Time Attendance Systems"]},{"category":"IT & Travel Accessories","sub_categories":[{"category":"Laptops","sub_categories":["HP Notebook Computer","Dell Notebook Computer","ASUS Notebook Computer","Lenovo Notebook Computer"]},"Monitors","Privacy Filters","CD / DVD Media","Mice & Keyboards",{"category":"Ergonomic Products","sub_categories":["Backpacks","Backrest Cushions","Chair Mats & Footrests","Mouse Pads & Wristrests","Ergonomic Desk Accessories"]},"Headsets & Speakers",{"category":"Computer Accessories","sub_categories":["Laptop Bags","Docking Stations","Laptop Security Locks","USB Hubs, Chargers & Adapters"]},"Cables, Adaptors & Sockets","Laser Pointers & Presenters","Webcams and Conference Cams",{"category":"Home / Office Network Switches","sub_categories":["Camera"]},"Flash / Hard Drives & Memory Cards"]},{"category":"Pantry","sub_categories":["Coffee","Tea",{"category":"Drinks","sub_categories":["Milo & Nestum","Packet & Can Drinks","Bottled / Mineral Water & Milk"]},{"category":"Food Shelf","sub_categories":["Instant Food"]},{"category":"Other Beverages","sub_categories":["Chocolate & Malted","Cereals"]},"Disposable Wares","First Aid Supplies",{"category":"Sweeteners & Dairy","sub_categories":["Sugar","Creamer","Milk"]},"Toilet Rolls & Facial Tissues","Biscuits, Cookies & Crackers","Cleaning Tools & Equipment","Household & Cleaning Agents","Water Dispensers"]},{"category":"Hardware & Maintenance","sub_categories":["Step Ladders","Office Design Products","Bathroom & Kitchen Accessories","Command Hooks & Adhesive Strips","Photo & Certificate Frames / Holders"]},{"category":"Arts & Craft","sub_categories":[]},{"category":"Gifts & Novelties","sub_categories":[]}]');
-function cleanKey$1(str) {
-  return str.replace(/[^a-zA-Z0-9]/g, "");
-}
-const depthPadding$1 = [
-  "pl-0",
-  "pl-3",
-  "pl-6",
-  "pl-9",
-  "pl-12"
-];
-const CategoryLink$1 = ({ name: name2, urlKey, depth = 0, onClose, isActive = false }) => {
-  const paddingClass = depthPadding$1[Math.min(depth, depthPadding$1.length - 1)];
-  return /* @__PURE__ */ jsxRuntimeExports.jsx(
-    Link,
-    {
-      to: `/category/${urlKey}`,
-      onClick: onClose,
-      className: `block text-sm py-2 px-3 border-l-2 transition-colors ${paddingClass} ${isActive ? "border-[#00579A] bg-blue-50 text-[#00579A] font-medium" : "border-transparent text-gray-700 hover:text-[#00579A] hover:bg-gray-50"}`,
-      children: name2
-    }
-  );
-};
-const CategoryAccordion$1 = ({ item, isWrapped, toggleWrap, depth = 0, renderCategories, onClose, currentCategory }) => {
-  const key = cleanKey$1(item.category);
-  const paddingClass = depthPadding$1[Math.min(depth, depthPadding$1.length - 1)];
-  const hasSubCategories = item.sub_categories && item.sub_categories.length > 0;
-  const isActive = currentCategory === key;
-  if (!hasSubCategories) {
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(
-      CategoryLink$1,
-      {
-        name: item.category,
-        urlKey: key,
-        depth,
-        onClose,
-        isActive
-      }
-    );
-  }
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "border-b border-gray-100 last:border-b-0", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs(
-      "div",
-      {
-        onClick: () => toggleWrap(key),
-        className: `flex items-center py-2 px-3 cursor-pointer transition-colors ${paddingClass} ${isWrapped || isActive ? "bg-blue-50 text-[#00579A]" : "hover:bg-gray-50 text-gray-800"}`,
-        children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "flex-1 text-sm", children: item.category }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: `transition-transform duration-200 w-4 h-4 ml-2 ${isWrapped ? "rotate-180" : ""}`, children: /* @__PURE__ */ jsxRuntimeExports.jsx("svg", { fill: "none", viewBox: "0 0 24 24", stroke: "currentColor", children: /* @__PURE__ */ jsxRuntimeExports.jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M19 9l-7 7-7-7" }) }) })
-        ]
-      }
-    ),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(
-      "div",
-      {
-        className: `overflow-hidden transition-all duration-200 ${isWrapped ? "max-h-screen" : "max-h-0"}`,
-        children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pb-1", children: renderCategories(item.sub_categories, depth + 1, onClose, currentCategory) })
-      }
-    )
-  ] });
-};
-function BurgerMenu() {
-  const [isOpen, setIsOpen] = reactExports.useState(false);
-  const [wrap2, setWrap] = reactExports.useState({});
-  const location2 = useLocation();
-  reactExports.useEffect(() => {
-    setIsOpen(false);
-  }, [location2.pathname]);
-  reactExports.useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "unset";
-    }
-    return () => {
-      document.body.style.overflow = "unset";
-    };
-  }, [isOpen]);
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
+    setIsMenuOpen(!isMenuOpen);
   };
-  const closeMenu = () => {
-    setIsOpen(false);
-  };
-  const toggleWrap = (name2) => {
-    setWrap((prev) => ({
-      ...prev,
-      [name2]: !prev[name2]
-    }));
-  };
-  const getCurrentCategory = () => {
-    const pathParts = location2.pathname.split("/");
-    return pathParts[2] || "";
-  };
-  const currentCategory = getCurrentCategory();
-  const renderCategories = (items, depth = 0, onClose, currentCat) => {
-    return items.map((item) => {
-      if (typeof item === "object") {
-        const key = cleanKey$1(item.category);
-        return /* @__PURE__ */ jsxRuntimeExports.jsx(
-          CategoryAccordion$1,
-          {
-            item,
-            isWrapped: wrap2[key],
-            toggleWrap,
-            depth,
-            renderCategories,
-            onClose,
-            currentCategory: currentCat
-          },
-          key
-        );
-      }
-      const link = cleanKey$1(item);
-      const isActive = currentCat === link;
-      return /* @__PURE__ */ jsxRuntimeExports.jsx(
-        CategoryLink$1,
-        {
-          name: item,
-          urlKey: link,
-          depth,
-          onClose,
-          isActive
-        },
-        link
-      );
-    });
-  };
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs(
-      "button",
-      {
-        className: `flex flex-col justify-center items-center w-10 h-10 rounded-md cursor-pointer transition-colors z-50 bg-[#00579A] hover:bg-[#00457A]`,
-        onClick: toggleMenu,
-        "aria-label": "Menu",
-        "aria-expanded": isOpen,
-        children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `w-5 h-0.5 bg-white mb-1 transition-all ${isOpen ? "rotate-45 translate-y-1.5" : ""}` }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `w-5 h-0.5 bg-white mb-1 transition-all ${isOpen ? "opacity-0" : ""}` }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `w-5 h-0.5 bg-white transition-all ${isOpen ? "-rotate-45 -translate-y-1.5" : ""}` })
-        ]
-      }
-    ),
-    isOpen && /* @__PURE__ */ jsxRuntimeExports.jsx(
-      "div",
-      {
-        className: "fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden",
-        onClick: closeMenu
-      }
-    ),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: `fixed top-0 left-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-200 z-50 lg:static lg:transform-none lg:shadow-none lg:w-56 ${isOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"}`, children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-[#00579A] text-white p-4 flex justify-between items-center lg:hidden", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-lg font-medium", children: "Categories" }),
+  const linkClasses = "block text-white text-sm font-medium tracking-wide no-underline transition-colors duration-200 py-2 px-4 rounded-md hover:bg-white hover:text-[#00579A] w-full text-left";
+  const mobileLinkClasses = "block text-white text-sm font-medium tracking-wide no-underline transition-colors duration-200 py-3 px-4 rounded-md hover:bg-white hover:text-[#00579A] border-b border-white/20 last:border-b-0";
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "w-full py-2 sm:py-2.5 px-4 shadow-md relative", style: { backgroundColor: "#00579A" }, children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "hidden md:flex justify-end items-center space-x-2 lg:space-x-4", children: [
+      user ? /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-white text-sm font-light mr-2 truncate max-w-[200px] lg:max-w-[250px]", children: [
+          "Hello, ",
+          user.email || "User"
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/myaccount", className: linkClasses.replace("block", "inline-block").replace("w-full", ""), children: "My Account" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(
           "button",
           {
-            onClick: closeMenu,
-            className: "text-white hover:text-gray-200 p-1",
-            "aria-label": "Close menu",
-            children: /* @__PURE__ */ jsxRuntimeExports.jsx("svg", { className: "w-5 h-5", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsxRuntimeExports.jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M6 18L18 6M6 6l12 12" }) })
+            onClick: logoutFunction,
+            className: `${linkClasses.replace("block", "inline-block").replace("w-full", "")} !bg-transparent hover:!bg-white/20 border border-transparent hover:border-white`,
+            children: "Logout"
+          }
+        )
+      ] }) : /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/register", className: linkClasses.replace("block", "inline-block").replace("w-full", ""), children: "Register" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/login", className: linkClasses.replace("block", "inline-block").replace("w-full", ""), children: "Login" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/contactUs", className: `${linkClasses.replace("block", "inline-block").replace("w-full", "")}`, children: "Contact Us" })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "md:hidden flex justify-between items-center", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-white text-sm font-medium", children: user ? `Hello, ${user.email?.split("@")[0] || "User"}` : "Welcome" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        "button",
+        {
+          onClick: toggleMenu,
+          className: "p-1 text-white hover:bg-white/20 rounded-md transition-colors",
+          "aria-label": "User menu",
+          children: /* @__PURE__ */ jsxRuntimeExports.jsx("svg", { className: "w-6 h-6", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "path",
+            {
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+              strokeWidth: 2,
+              d: isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
+            }
+          ) })
+        }
+      )
+    ] }),
+    isMenuOpen && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:hidden absolute top-full left-0 right-0 bg-[#00579A] shadow-lg z-50 border-t border-white/20", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "py-2", children: [
+      user ? /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          Link,
+          {
+            to: "/myaccount",
+            className: mobileLinkClasses,
+            onClick: () => setIsMenuOpen(false),
+            children: "My Account"
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "button",
+          {
+            onClick: logoutFunction,
+            className: `${mobileLinkClasses} !bg-transparent hover:!bg-white/20 border-0 text-left`,
+            children: "Logout"
+          }
+        )
+      ] }) : /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          Link,
+          {
+            to: "/register",
+            className: mobileLinkClasses,
+            onClick: () => setIsMenuOpen(false),
+            children: "Register"
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          Link,
+          {
+            to: "/login",
+            className: mobileLinkClasses,
+            onClick: () => setIsMenuOpen(false),
+            children: "Login"
           }
         )
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "h-full overflow-y-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 lg:p-0 lg:pt-4", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "hidden lg:block mb-4 px-3", children: /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-base font-medium text-gray-900", children: "Categories" }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mb-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Link,
-          {
-            to: "/",
-            onClick: closeMenu,
-            className: `block text-sm py-2 px-3 rounded transition-colors ${location2.pathname === "/" ? "bg-blue-50 text-[#00579A] font-medium" : "text-gray-700 hover:text-[#00579A] hover:bg-gray-50"}`,
-            children: "Home"
-          }
-        ) }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "border-t border-gray-200 pt-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-sm font-medium text-gray-900 px-3 mb-2", children: "All Categories" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "border border-gray-200 rounded-lg", children: renderCategories(category, 0, closeMenu, currentCategory) })
-        ] })
-      ] }) })
-    ] })
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        Link,
+        {
+          to: "/contactUs",
+          className: mobileLinkClasses,
+          onClick: () => setIsMenuOpen(false),
+          children: "Contact Us"
+        }
+      )
+    ] }) })
   ] });
 }
+const category = /* @__PURE__ */ JSON.parse('[{"category":"Basic Stationery","sub_categories":["Batteries",{"category":"Boards & Accessories","sub_categories":["Magnets","Whiteboards","MobileWhiteboards","Whiteboard Accessories","Plain Glass Boards","Design Glass Boards","Memo & Bulletin / Notice Boards","Easel Pads & Flip Chart Boards"]},"Clips, Pins & Tacks",{"category":"Desk Accessories","sub_categories":["Card Stands","Desk Organizers","Brochure Holders","Desk Table LED Lamp"]},{"category":"Envelopes","sub_categories":["Plain Envelopes","String Envelopes","Window Envelopes","Bubble Padded Envelopes"]},{"category":"Fasteners","sub_categories":["Card / Book Rings","Cotton Tapes","Paper Fasteners"]},{"category":"Glue & Adhesives","sub_categories":["Liquid & Super Glue","Blu-Tacks & Glue Sticks"]},{"category":"Laser / Inkjet Labels","sub_categories":["White Labels","Coloured Labels","Fabric Labels & Tent Cards","Clear Labels & Notarial Seals"]}]},{"category":"Basic Stationery II","sub_categories":["Mesh Products","Packing Products",{"category":"Post-it Notes, Flags & Tabs","sub_categories":["Flags & Tabs","Page Markers","Canary Yellow Notes","Premium Coloured Notes","Pop-Up Notes & Dispensers"]},"PU Leather Products",{"category":"Scissors, Rulers & Trimmers","sub_categories":["Cutters, Blades & Mats","Letter Openers","Paper Cutters","Rulers & Measuring Tapes","Scissors"]},{"category":"Stamps, Stamp Pads & Inks","sub_categories":["Date Stamps","Pre-Inked Stamps","Numbering Machines","Stamp Pads, Inks & Racks","DIY Self-Inking Printing Kit","Customized / Custom-Made Stamps"]},{"category":"Staplers & Paper Punches","sub_categories":["Desktop Staplers","Paper Punchers","Staple Removers","Staples / Bullets","Heavy Duty Staplers","Heavy Duty Paper Punchers"]},{"category":"Tapes & Dispensers","sub_categories":["OPP Tape","Cloth Tape","Magic Tape","Masking Tape","Mounting Tape","Double-Sided Tape","Transparent & Cellulose Tapes","Dispensers"]},"Waste Bin"]},{"category":"Paper Products","sub_categories":["Copier Paper","Special Paper",{"category":"Notebooks & Pads","sub_categories":["Notebooks","Voucher Pads","Hardcover Books","Miscellaneous Pads","Writing Pads & Exercise Books"]},"Computer Form Paper","Professional Notebooks","Woodfree, Thermal & Fax Paper"]},{"category":"Printer Toner & Ink Cartridges","sub_categories":["HP Printer Toner & Ink Cartridges","Canon Printer Toner & Ink Cartridges","Brother Printer Toner & Ink Cartridges","Epson Printer Toner & Ink Cartridges","Samsung Printer Toner & Ink Cartridges","Fuji Xerox Printer Toner & Ink Cartridges"]},{"category":"Writing & Correction","sub_categories":[{"category":"Pens","sub_categories":["Refills","Gift Pens","Ballpoint Pens","Uni Jetstream Pens","Liquid & Gel Ink Pens","Erasable & Fibre-Tip Pens"]},"Pencils",{"category":"Markers","sub_categories":["Permanent Markers","Whiteboard Markers","Chalk & Paint Markers"]},"Fineliners","Sharpeners","Highlighters","Colour Pencils",{"category":"Correction Supplies","sub_categories":["Erasers & Dusters","Correction Pens / Tapes"]}]},{"category":"Filing & Storage","sub_categories":["Clipboards",{"category":"Storage","sub_categories":["Cash Boxes","File Cabinets","Key Box / Tags","Document Trays","Magazine Holders","Book & File Racks","Newspaper, Magazine & Umbrella Racks"]},{"category":"Dividers","sub_categories":["Index Dividers","Colour Dividers","White Paper Dividers"]},{"category":"PP / PVC Files","sub_categories":["Clear Files","Clear Folders","Coloured Folders","Management Files"]},"Paper Files","Index & Tabs","Ring & Arch Files","Files & Card Cases","Card Holders & Files","Laminated Ring Files","Reinforcement Rings","Sheet Protector / Copy Safe & Pockets"]},{"category":"Office Equipment & Accessories","sub_categories":[{"category":"Laserjet & Inkjet Printers","sub_categories":["HP","OKI","Epson","Canon","Brother Printers"]},"Scanners",{"category":"Calculators","sub_categories":["Printing Calculators","Desktop Calculators","Scientific & Financial Calculators"]},{"category":"Projectors","sub_categories":["Epson","ViewSonic"]},"Air Purifiers",{"category":"Paper Shredder Machines","sub_categories":["GBC","HSM","Aurora","Fellowes","Heavy Duty"]},{"category":"Laminators & Pouches","sub_categories":["Pouches","Laminating Machine"]},"Desk / Table LED Lamp",{"category":"Label Printers & Tapes","sub_categories":["Label Tapes","Label Printers"]},"Checkwriter & Accessories",{"category":"Binding Machines & Accessories","sub_categories":["GBC","Fellowes","Binding Rings","Binding Covers"]},"Coin, Notes, Currency, Money Counters","Time Recorders & Time Attendance Systems"]},{"category":"IT & Travel Accessories","sub_categories":[{"category":"Laptops","sub_categories":["HP Notebook Computer","Dell Notebook Computer","ASUS Notebook Computer","Lenovo Notebook Computer"]},"Monitors","Privacy Filters","CD / DVD Media","Mice & Keyboards",{"category":"Ergonomic Products","sub_categories":["Backpacks","Backrest Cushions","Chair Mats & Footrests","Mouse Pads & Wristrests","Ergonomic Desk Accessories"]},"Headsets & Speakers",{"category":"Computer Accessories","sub_categories":["Laptop Bags","Docking Stations","Laptop Security Locks","USB Hubs, Chargers & Adapters"]},"Cables, Adaptors & Sockets","Laser Pointers & Presenters","Webcams and Conference Cams",{"category":"Home / Office Network Switches","sub_categories":["Camera"]},"Flash / Hard Drives & Memory Cards"]},{"category":"Pantry","sub_categories":["Coffee","Tea",{"category":"Drinks","sub_categories":["Milo & Nestum","Packet & Can Drinks","Bottled / Mineral Water & Milk"]},{"category":"Food Shelf","sub_categories":["Instant Food"]},{"category":"Other Beverages","sub_categories":["Chocolate & Malted","Cereals"]},"Disposable Wares","First Aid Supplies",{"category":"Sweeteners & Dairy","sub_categories":["Sugar","Creamer","Milk"]},"Toilet Rolls & Facial Tissues","Biscuits, Cookies & Crackers","Cleaning Tools & Equipment","Household & Cleaning Agents","Water Dispensers"]},{"category":"Hardware & Maintenance","sub_categories":["Step Ladders","Office Design Products","Bathroom & Kitchen Accessories","Command Hooks & Adhesive Strips","Photo & Certificate Frames / Holders"]},{"category":"Arts & Craft","sub_categories":[]},{"category":"Gifts & Novelties","sub_categories":[]}]');
+const cartIcon = "" + new URL("../assets/img/cart.png", import.meta.url).href;
 function Cart({ cartCount = 0 }) {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("button", { className: "p-2 relative hover:bg-gray-100 rounded-full transition-colors duration-200", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(
       "img",
       {
-        src: "../assets/img/cart.png",
-        alt: "cart",
+        src: cartIcon,
+        alt: "Cart",
         className: "w-6 h-6 object-contain"
       }
     ),
@@ -38733,31 +38629,76 @@ const Logo = "" + new URL("../assets/img/logo/HOME-N-OFFICE-LOGO-min (1).png", i
 function Layout() {
   let { addFavorite } = reactExports.useContext(AuthContext);
   let { cart } = reactExports.useContext(CartContext);
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-h-screen flex flex-col", children: [
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = reactExports.useState(false);
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-h-screen flex flex-col bg-gray-50", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("header", { className: "bg-white shadow-lg sticky top-0 z-50", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("nav", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(UserPanel, {}) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4 py-3 flex items-center justify-between", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-shrink-0 mr-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "img",
-          {
-            src: Logo,
-            alt: "HomenOffice Logo",
-            className: "h-12 object-contain"
-          }
-        ) }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx(BurgerMenu, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "hidden md:flex items-center space-x-6 ml-auto", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/mywishlist", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Saved, {}) }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/cart", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Cart, { cartCount: cart.length }) }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollToTopButton, {})
-        ] })
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-3 sm:px-4 py-3", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-shrink-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", className: "flex items-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "img",
+            {
+              src: Logo,
+              alt: "HomenOffice Logo",
+              className: "h-10 sm:h-12 object-contain"
+            }
+          ) }) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center space-x-3 sm:space-x-4 md:hidden", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/mywishlist", className: "p-2", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Saved, {}) }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/cart", className: "p-2 relative", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Cart, { cartCount: cart.length }) }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "button",
+              {
+                onClick: () => setIsMobileMenuOpen(!isMobileMenuOpen),
+                className: "p-2 text-gray-600 hover:text-[#00579A] transition-colors",
+                "aria-label": "Toggle menu",
+                children: /* @__PURE__ */ jsxRuntimeExports.jsx("svg", { className: "w-6 h-6", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "path",
+                  {
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round",
+                    strokeWidth: 2,
+                    d: isMobileMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
+                  }
+                ) })
+              }
+            )
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "hidden md:flex items-center space-x-4 lg:space-x-6 ml-auto", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/mywishlist", className: "p-2 hover:bg-gray-100 rounded-full transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Saved, {}) }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/cart", className: "p-2 hover:bg-gray-100 rounded-full transition-colors relative", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Cart, { cartCount: cart.length }) }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollToTopButton, {})
+          ] })
+        ] }),
+        isMobileMenuOpen && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:hidden mt-4 border-t border-gray-200 pt-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Categories, {}) })
       ] })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("main", { className: "flex-grow container mx-auto px-4 py-6", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-6", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("aside", { className: "w-64 shrink-0 hidden lg:block h-min sticky top-[100px]", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Categories, {}) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {}) })
+    /* @__PURE__ */ jsxRuntimeExports.jsx("main", { className: "flex-grow container mx-auto px-3 sm:px-4 py-4 sm:py-6", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col lg:flex-row gap-4 sm:gap-6", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("aside", { className: "lg:w-64 shrink-0 hidden lg:block", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "sticky top-24", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Categories, {}) }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "lg:hidden w-full", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+        "button",
+        {
+          onClick: () => setIsMobileMenuOpen(!isMobileMenuOpen),
+          className: "w-full bg-[#00579A] text-white py-3 px-4 rounded-lg flex items-center justify-between mb-4",
+          children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium", children: "Browse Categories" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "svg",
+              {
+                className: `w-5 h-5 transform transition-transform ${isMobileMenuOpen ? "rotate-180" : ""}`,
+                fill: "none",
+                stroke: "currentColor",
+                viewBox: "0 0 24 24",
+                children: /* @__PURE__ */ jsxRuntimeExports.jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M19 9l-7 7-7-7" })
+              }
+            )
+          ]
+        }
+      ) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-1 min-w-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {}) })
     ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: " ", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Footer, {}) })
+    /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "mt-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Footer, {}) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "fixed bottom-4 right-4 md:hidden z-40", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollToTopButton, {}) })
   ] });
 }
 const faqData = [
@@ -39975,6 +39916,10 @@ const bestDeals = query(
   collection(db, "products"),
   where("best_deals", "==", true)
 );
+const faqimg = "" + new URL("../assets/img/info/payment.png", import.meta.url).href;
+const deliveryimg = "" + new URL("../assets/img/info/delivery.png", import.meta.url).href;
+const colectimg = "" + new URL("../assets/img/info/gift.png", import.meta.url).href;
+const buymore = "" + new URL("../assets/img/info/sales.png", import.meta.url).href;
 function Home() {
   const slideImg = [banner1, banner2, banner3, banner4, banner5];
   const [featured, setFeatured] = reactExports.useState([]);
@@ -40012,7 +39957,7 @@ function Home() {
         {
           title: "EASY",
           description: "ONLINE PAYMENT",
-          image: "../assets/img/info/payment.png",
+          image: faqimg,
           className: "bg-gray-50 border border-gray-100 p-4 rounded-xl text-center shadow-sm group-hover:bg-blue-50 group-hover:border-blue-300"
         }
       ) }),
@@ -40021,7 +39966,7 @@ function Home() {
         {
           title: "DELIVERY",
           description: "WITHIN SINGAPORE",
-          image: "../assets/img/info/delivery.png",
+          image: deliveryimg,
           className: "bg-gray-50 border border-gray-100 p-4 rounded-xl text-center shadow-sm group-hover:bg-blue-50 group-hover:border-blue-300"
         }
       ) }),
@@ -40030,7 +39975,7 @@ function Home() {
         {
           title: "COLLECTION",
           description: "AT RETAIL OUTLET",
-          image: "../assets/img/info/gift.png",
+          image: colectimg,
           className: "bg-gray-50 border border-gray-100 p-4 rounded-xl text-center shadow-sm group-hover:bg-blue-50 group-hover:border-blue-300"
         }
       ) }),
@@ -40039,7 +39984,7 @@ function Home() {
         {
           title: "BUY MORE",
           description: "TO ENJOY GREAT DISCOUNTS",
-          image: "../assets/img/info/sales.png",
+          image: buymore,
           className: "bg-gray-50 border border-gray-100 p-4 rounded-xl text-center shadow-sm group-hover:bg-blue-50 group-hover:border-blue-300"
         }
       ) })
