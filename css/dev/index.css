@@ -2534,10 +2534,6 @@
     .container {
       max-width: 64rem;
     }
-    .lg\:fixed {
-      position: fixed;
-    }
-
     .lg\:static {
       position: static;
     }
